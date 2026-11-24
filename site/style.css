@@ -104,7 +104,7 @@ input[type=range] { width: 100%; accent-color: var(--ink); }
 /* ---------------------------------------------------------- area breakdown */
 .hint-click { margin-top: 4px !important; font-style: italic; }
 .area {
-  position: absolute; top: 12px; right: 12px; width: 340px; max-height: calc(100% - 24px); overflow-y: auto; z-index: 2;
+  position: absolute; top: 12px; right: 12px; width: 340px; max-height: calc(100% - 130px); overflow-y: auto; z-index: 2;
   background: rgba(247, 244, 236, 0.97); border: 1px solid var(--rule); padding: 0 18px 12px;
   box-shadow: 0 1px 2px rgba(40, 30, 10, .08), 0 6px 24px rgba(40, 30, 10, .10);
 }
