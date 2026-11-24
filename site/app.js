@@ -32,19 +32,29 @@
     colorBy: store.get("colorBy", "sub"),
     size: store.get("size", 4),
     opacity: store.get("opacity", 0.85),
+    outlines: store.get("outlines", false),
   };
   if (!BASEMAPS.find((b) => b.id === state.basemap)) state.basemap = "paper";
 
   // ----------------------------------------------------------------------- data
   const loading = $("#loading");
-  let meta, N, positions, originOf;
-  try {
-    meta = await (await fetch("data/meta.json")).json();
-    let buf = new Uint8Array(await (await fetch("data/dots.bin.gz")).arrayBuffer());
+  // Fetch a .gz file and gunzip it here (unless the server already did).
+  async function fetchBytes(url) {
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(`${url}: HTTP ${res.status}`);
+    let buf = new Uint8Array(await res.arrayBuffer());
     if (buf[0] === 0x1f && buf[1] === 0x8b) {
       const stream = new Blob([buf]).stream().pipeThrough(new DecompressionStream("gzip"));
       buf = new Uint8Array(await new Response(stream).arrayBuffer());
     }
+    return buf;
+  }
+  const fetchGzJson = async (url) => JSON.parse(new TextDecoder().decode(await fetchBytes(url)));
+
+  let meta, N, positions, originOf;
+  try {
+    meta = await (await fetch("data/meta.json")).json();
+    const buf = await fetchBytes("data/dots.bin.gz");
     N = meta.count;
     const qx = new Uint16Array(buf.buffer, buf.byteOffset, N);
     const qy = new Uint16Array(buf.buffer, buf.byteOffset + 2 * N, N);
@@ -113,7 +123,7 @@
     hash: true,
   });
   window.teoMap = map; // handy for debugging from the console
-  map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
+  map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "bottom-right");
   const padPanel = () => map.setPadding(window.innerWidth >= 720 ? { left: 372, top: 0, right: 0, bottom: 0 } : { left: 0, top: 0, right: 0, bottom: 0 });
   padPanel();
   window.addEventListener("resize", padPanel);
@@ -173,11 +183,141 @@
   map.addControl(overlay);
   const render = () => overlay.setProps({ layers: [dotLayer()] });
 
+  let styleReady = false;
   map.on("style.load", () => {
+    styleReady = true;
     beforeId = labelLayerId();
     applyLabels();
+    addAreaLayers();
     render();
   });
+
+  // ------------------------------------------------------------ area breakdown
+  // Click a dissemination area (shift/cmd-click to add more) for its make-up.
+  let areaGeo = null, areaData = null, selection = [];
+  const cma = { broad: [], sub: [], total: 0 };
+  const isDark = () => !!BASEMAPS.find((b) => b.id === state.basemap).dark;
+  const selFilter = () => ["in", ["get", "DAUID"], ["literal", selection]];
+
+  function addAreaLayers() {
+    if (!areaGeo || !styleReady || map.getSource("das")) return;
+    const ink = isDark() ? "#ffffff" : "#1d1a16", halo = isDark() ? "rgba(0,0,0,.7)" : "rgba(247,244,236,.9)";
+    map.addSource("das", { type: "geojson", data: areaGeo });
+    map.addLayer({ id: "das-fill", type: "fill", source: "das", paint: { "fill-color": "#000", "fill-opacity": 0 } }, beforeId);
+    map.addLayer({
+      id: "das-outline", type: "line", source: "das", minzoom: 11,
+      layout: { visibility: state.outlines ? "visible" : "none" },
+      paint: { "line-color": isDark() ? "rgba(255,255,255,.28)" : "rgba(60,50,40,.28)", "line-width": 0.6 },
+    }, beforeId);
+    map.addLayer({ id: "das-sel-halo", type: "line", source: "das", filter: selFilter(),
+      paint: { "line-color": halo, "line-width": 5.5 } });
+    map.addLayer({ id: "das-sel", type: "line", source: "das", filter: selFilter(),
+      paint: { "line-color": ink, "line-width": 2.2 } });
+  }
+
+  function computeCma() {
+    cma.broad = meta.broads.map(() => 0); cma.sub = meta.subs.map(() => 0); cma.total = 0;
+    for (const id in areaData) for (const [o, n] of areaData[id].c) {
+      const s = meta.origins[o].sub;
+      cma.sub[s] += n; cma.broad[meta.subs[s].broad] += n; cma.total += n;
+    }
+  }
+
+  (async () => {
+    try {
+      [areaGeo, areaData] = await Promise.all([fetchGzJson("data/areas.geojson.gz"), fetchGzJson("data/areas.json.gz")]);
+      computeCma();
+      addAreaLayers();
+    } catch (e) { console.warn("Area layer failed to load", e); }
+  })();
+
+  map.on("click", (e) => {
+    if (!areaGeo || !map.getLayer("das-fill")) return;
+    const f = map.queryRenderedFeatures(e.point, { layers: ["das-fill"] })[0];
+    const id = f && f.properties.DAUID;
+    const multi = e.originalEvent.shiftKey || e.originalEvent.metaKey || e.originalEvent.ctrlKey;
+    if (!id) { if (!multi) setSelection([]); return; }
+    if (multi) setSelection(selection.includes(id) ? selection.filter((x) => x !== id) : [...selection, id]);
+    else setSelection(selection.length === 1 && selection[0] === id ? [] : [id]);
+  });
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") setSelection([]); });
+
+  function setSelection(ids) {
+    selection = ids;
+    if (map.getLayer("das-sel")) { map.setFilter("das-sel", selFilter()); map.setFilter("das-sel-halo", selFilter()); }
+    renderArea();
+  }
+
+  const pct = (x) => (x >= 0.1 ? Math.round(x * 100) + "%" : x >= 0.0005 ? (x * 100).toFixed(1) + "%" : "<0.1%");
+  const esc = (t) => String(t).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+  function renderArea() {
+    const panel = $("#area");
+    if (!selection.length) { panel.hidden = true; return; }
+    const per = new Map();
+    let pop = 0, eo = 0, suppressed = 0;
+    const towns = new Set();
+    for (const id of selection) {
+      const d = areaData[id];
+      if (!d) continue;
+      towns.add(d.m);
+      pop += d.p || 0;
+      if (d.e == null) suppressed++; else eo += d.e;
+      for (const [o, n] of d.c) per.set(o, (per.get(o) || 0) + n);
+    }
+    const broad = meta.broads.map(() => 0), sub = meta.subs.map(() => 0);
+    let total = 0;
+    per.forEach((n, o) => { const s = meta.origins[o].sub; sub[s] += n; broad[meta.subs[s].broad] += n; total += n; });
+
+    const title = selection.length === 1 ? `${esc([...towns][0] || "")}` : `${selection.length} areas`;
+    const subtitle = selection.length === 1
+      ? `Dissemination area ${selection[0]}`
+      : esc([...towns].slice(0, 4).join(", ") + (towns.size > 4 ? ` and ${towns.size - 4} more` : ""));
+    let html = `<header class="area-head">
+      <div class="kicker">Area breakdown</div>
+      <h2>${title}</h2>
+      <p class="meta">${subtitle}<br>${pop.toLocaleString()} residents (2021)</p>
+      <button class="close" aria-label="Close breakdown">×</button>
+    </header>`;
+
+    if (!total) {
+      html += `<p class="empty">${suppressed ? "Statistics Canada suppressed the ethnic origin data for this area (too few people or responses)." : "No origin counts were published for this area."}</p>`;
+    } else {
+      const order = broad.map((n, i) => i).filter((i) => broad[i] > 0).sort((a, b) => broad[b] - broad[a]);
+      html += `<div class="stack" role="img" aria-label="Share of origin responses by broad group">` +
+        order.map((i) => `<span style="width:${(100 * broad[i]) / total}%;background:${meta.broads[i].color}" title="${esc(meta.broads[i].name)} ${pct(broad[i] / total)}"></span>`).join("") +
+        `</div>
+        <p class="note">Share of all ${total.toLocaleString()} origin responses. Tick = Toronto CMA.</p>
+        <ul class="groups">`;
+      for (const bi of order) {
+        const share = broad[bi] / total, cmaShare = cma.broad[bi] / cma.total;
+        const subs = meta.subs.map((s, i) => i).filter((i) => meta.subs[i].broad === bi && sub[i] > 0).sort((a, b) => sub[b] - sub[a]);
+        html += `<li><details><summary>
+            <span class="sw-dot" style="background:${meta.broads[bi].color}"></span>
+            <span class="g-name">${esc(meta.broads[bi].name)}</span>
+            <span class="g-pct">${pct(share)}</span>
+            <span class="bar"><i style="width:${Math.min(100, share * 100)}%;background:${meta.broads[bi].color}"></i><b style="left:${Math.min(100, cmaShare * 100)}%"></b></span>
+          </summary><ul>` +
+          subs.map((si) => `<li><span class="sw-dot" style="background:${meta.subs[si].color}"></span><span class="g-name">${esc(meta.subs[si].name)}</span><span class="g-pct">${pct(sub[si] / total)}</span>
+            <span class="bar"><i style="width:${Math.min(100, (sub[si] / total) * 100)}%;background:${meta.subs[si].color}"></i><b style="left:${Math.min(100, (cma.sub[si] / cma.total) * 100)}%"></b></span></li>`).join("") +
+          `</ul></details></li>`;
+      }
+      html += `</ul>`;
+
+      const top = [...per.entries()].sort((a, b) => b[1] - a[1]).slice(0, 12);
+      html += `<h3>Most reported origins</h3><table class="top"><thead><tr><th></th><th>Origin</th><th>Residents</th><th>Count</th></tr></thead><tbody>` +
+        top.map(([o, n]) => {
+          const s = meta.subs[meta.origins[o].sub];
+          return `<tr><td><span class="sw-dot" style="background:${s.color}"></span></td><td>${esc(meta.origins[o].name)}</td>
+            <td>${eo ? pct(n / eo) : "–"}</td><td>${n.toLocaleString()}</td></tr>`;
+        }).join("") + `</tbody></table>
+        <p class="note">“Residents” is the share of people in private households who reported that origin, alone or with others. Counts are 25% sample estimates rounded to 5; counts under 10 are not published.${suppressed ? ` Data for ${suppressed} of the selected areas are suppressed.` : ""}</p>`;
+    }
+    html += `<p class="hint">${selection.length === 1 ? "Shift-click (⌘-click) more areas to combine them." : "Shift-click an area again to remove it."} Esc clears.</p>`;
+    panel.innerHTML = html;
+    panel.hidden = false;
+    panel.querySelector(".close").onclick = () => setSelection([]);
+  }
 
   rebuildColors();
   rebuildFilter();
@@ -200,12 +340,18 @@
       // Drop the dots first: their beforeId points at a label layer of the old
       // style; they are re-added under the new style's labels on style.load.
       beforeId = undefined;
+      styleReady = false;
       overlay.setProps({ layers: [] });
       map.setStyle(b.style, { diff: false });
     };
     bmWrap.appendChild(btn);
   });
 
+  $("#outlines").checked = state.outlines;
+  $("#outlines").onchange = (e) => {
+    state.outlines = e.target.checked; store.set("outlines", state.outlines);
+    if (map.getLayer("das-outline")) map.setLayoutProperty("das-outline", "visibility", state.outlines ? "visible" : "none");
+  };
   $("#labels").checked = state.labels;
   $("#labels").onchange = (e) => { state.labels = e.target.checked; store.set("labels", state.labels); applyLabels(); };
 
