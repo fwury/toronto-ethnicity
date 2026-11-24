@@ -1,486 +1,486 @@
-broad,sub,member_id,origin,statcan_group,toronto_cma_responses
-Indigenous North American,First Nations,7,"First Nations (North American Indian), n.o.s.",First Nations (North American Indian) origins,18310
-Indigenous North American,First Nations,5,"North American Indigenous, n.o.s.",North American Indigenous origins,7525
-Indigenous North American,First Nations,80,"Mi'kmaq, n.o.s.",Mi'kmaq origins,5225
-Indigenous North American,First Nations,13,Ojibway,Anishinaabe origins,4455
-Indigenous North American,First Nations,66,Mohawk,Iroquoian (Haudenosaunee) origins,2365
-Indigenous North American,First Nations,30,"Cree, n.o.s.",Cree origins,2315
-Indigenous North American,First Nations,11,Algonquin,Anishinaabe origins,1215
-Indigenous North American,First Nations,10,"Anishinaabe, n.o.s.",Anishinaabe origins,750
-Indigenous North American,First Nations,64,"Iroquois (Haudenosaunee), n.o.s.",Iroquoian (Haudenosaunee) origins,650
-Indigenous North American,First Nations,21,"Blackfoot, n.o.s.",Blackfoot origins,560
-Indigenous North American,First Nations,26,Cherokee,First Nations (North American Indian) origins,540
-Indigenous North American,First Nations,81,Qalipu Mi'kmaq,Mi'kmaq origins,400
-Indigenous North American,First Nations,59,Huron (Wendat),First Nations (North American Indian) origins,350
-Indigenous North American,First Nations,61,"Innu/Montagnais, n.o.s.",Innu origins,165
-Indigenous North American,First Nations,16,Saulteaux,Anishinaabe origins,160
-Indigenous North American,First Nations,8,Abenaki,First Nations (North American Indian) origins,155
-Indigenous North American,First Nations,67,Oneida,Iroquoian (Haudenosaunee) origins,140
-Indigenous North American,First Nations,123,"First Nations (North American Indian) origins, n.i.e.",First Nations (North American Indian) origins,135
-Indigenous North American,First Nations,116,"Sioux, n.o.s.",Siouan origins,125
-Indigenous North American,First Nations,32,Plains Cree,Cree origins,120
-Indigenous North American,First Nations,69,"Iroquoian (Haudenosaunee) origins, n.i.e.",Iroquoian (Haudenosaunee) origins,115
-Indigenous North American,First Nations,15,Potawatomi,Anishinaabe origins,110
-Indigenous North American,First Nations,36,Delaware (Lenape),First Nations (North American Indian) origins,85
-Indigenous North American,First Nations,65,Cayuga,Iroquoian (Haudenosaunee) origins,85
-Indigenous North American,First Nations,12,Odawa,Anishinaabe origins,80
-Indigenous North American,First Nations,14,Oji-Cree,Anishinaabe origins,80
-Indigenous North American,First Nations,38,"Dene, n.o.s.",Dene origins,75
-Indigenous North American,First Nations,96,"Coast Salish, n.o.s.",Coast Salish origins,70
-Indigenous North American,First Nations,78,Maliseet,First Nations (North American Indian) origins,60
-Indigenous North American,First Nations,42,Chipewyan (Denesuline),Dene origins,55
-Indigenous North American,First Nations,18,Apache,First Nations (North American Indian) origins,45
-Indigenous North American,First Nations,28,Choctaw,First Nations (North American Indian) origins,40
-Indigenous North American,First Nations,68,Tuscarora,Iroquoian (Haudenosaunee) origins,40
-Indigenous North American,First Nations,94,"Salish, n.o.s.",Salish origins,40
-Indigenous North American,First Nations,112,Secwepemc (Shuswap),Interior Salish origins,40
-Indigenous North American,First Nations,27,Cheyenne,First Nations (North American Indian) origins,30
-Indigenous North American,First Nations,33,Swampy Cree,Cree origins,30
-Indigenous North American,First Nations,34,Woodland Cree,Cree origins,30
-Indigenous North American,First Nations,111,Okanagan (Syilx),Interior Salish origins,30
-Indigenous North American,First Nations,17,"Anishinaabe origins, n.i.e.",Anishinaabe origins,25
-Indigenous North American,First Nations,22,Blood (Kainai),Blackfoot origins,20
-Indigenous North American,First Nations,31,Moose Cree,Cree origins,20
-Indigenous North American,First Nations,40,Carrier (Dakelh),Dene origins,20
-Indigenous North American,First Nations,56,Haida,First Nations (North American Indian) origins,20
-Indigenous North American,First Nations,119,Lakota,Siouan origins,20
-Indigenous North American,First Nations,19,Atikamekw,First Nations (North American Indian) origins,15
-Indigenous North American,First Nations,39,Beaver (Dunne-za),Dene origins,15
-Indigenous North American,First Nations,46,Sahtú (North Slavey),Dene origins,15
-Indigenous North American,First Nations,55,Gitxsan,First Nations (North American Indian) origins,15
-Indigenous North American,First Nations,83,Nisga'a,First Nations (North American Indian) origins,15
-Indigenous North American,First Nations,121,Tsimshian,First Nations (North American Indian) origins,15
-Indigenous North American,First Nations,70,Ktunaxa (Kutenai),First Nations (North American Indian) origins,10
-Indigenous North American,First Nations,82,Navajo,First Nations (North American Indian) origins,10
-Indigenous North American,First Nations,97,Chemainus (Stz'uminus),Coast Salish origins,10
-Indigenous North American,First Nations,107,"Coast Salish origins, n.i.e.",Coast Salish origins,10
-Indigenous North American,First Nations,23,Piikani,Blackfoot origins,0
-Indigenous North American,First Nations,24,Siksika,Blackfoot origins,0
-Indigenous North American,First Nations,25,"Blackfoot origins, n.i.e.",Blackfoot origins,0
-Indigenous North American,First Nations,35,"Cree origins, n.i.e.",Cree origins,0
-Indigenous North American,First Nations,41,Chilcotin (Tsilhqot'in),Dene origins,0
-Indigenous North American,First Nations,43,Dene Tha’ (Slavey),Dene origins,0
-Indigenous North American,First Nations,44,Gwich'in,Dene origins,0
-Indigenous North American,First Nations,45,Kaska,Dene origins,0
-Indigenous North American,First Nations,47,Tahltan,Dene origins,0
-Indigenous North American,First Nations,48,Tlicho (Dogrib),Dene origins,0
-Indigenous North American,First Nations,49,Tlingit,Dene origins,0
-Indigenous North American,First Nations,50,Tse'khene (Sekani),Dene origins,0
-Indigenous North American,First Nations,51,Tsuut'ina (Sarcee),Dene origins,0
-Indigenous North American,First Nations,52,Tutchone,Dene origins,0
-Indigenous North American,First Nations,53,Wet'suwet'en,Dene origins,0
-Indigenous North American,First Nations,54,"Dene origins, n.i.e.",Dene origins,0
-Indigenous North American,First Nations,57,Haisla,First Nations (North American Indian) origins,0
-Indigenous North American,First Nations,58,Heiltsuk,First Nations (North American Indian) origins,0
-Indigenous North American,First Nations,62,Naskapi,Innu origins,0
-Indigenous North American,First Nations,72,"Kwakwaka'wakw, n.o.s.",Kwakwaka'wakw origins,0
-Indigenous North American,First Nations,73,Kwakiutl,Kwakwaka'wakw origins,0
-Indigenous North American,First Nations,74,Laich-kwil-tach,Kwakwaka'wakw origins,0
-Indigenous North American,First Nations,75,'Namgis,Kwakwaka'wakw origins,0
-Indigenous North American,First Nations,76,Quatsino,Kwakwaka'wakw origins,0
-Indigenous North American,First Nations,77,"Kwakwaka'wakw origins, n.i.e.",Kwakwaka'wakw origins,0
-Indigenous North American,First Nations,85,"Nuu-chah-nulth, n.o.s.",Nuu-chah-nulth origins,0
-Indigenous North American,First Nations,86,Ahousaht,Nuu-chah-nulth origins,0
-Indigenous North American,First Nations,87,Ditidaht,Nuu-chah-nulth origins,0
-Indigenous North American,First Nations,88,Tla-o-qui-aht,Nuu-chah-nulth origins,0
-Indigenous North American,First Nations,89,Tseshaht,Nuu-chah-nulth origins,0
-Indigenous North American,First Nations,90,"Nuu-chah-nulth origins, n.i.e.",Nuu-chah-nulth origins,0
-Indigenous North American,First Nations,91,Nuxalk,First Nations (North American Indian) origins,0
-Indigenous North American,First Nations,92,Passamaquoddy,First Nations (North American Indian) origins,0
-Indigenous North American,First Nations,98,Cowichan,Coast Salish origins,0
-Indigenous North American,First Nations,99,Homalco,Coast Salish origins,0
-Indigenous North American,First Nations,100,Musqueam,Coast Salish origins,0
-Indigenous North American,First Nations,101,Penelakut,Coast Salish origins,0
-Indigenous North American,First Nations,102,Shíshálh (Sechelt),Coast Salish origins,0
-Indigenous North American,First Nations,103,Snuneymuxw,Coast Salish origins,0
-Indigenous North American,First Nations,104,Squamish,Coast Salish origins,0
-Indigenous North American,First Nations,105,Stó:lo,Coast Salish origins,0
-Indigenous North American,First Nations,106,WSÁNEC (Saanich),Coast Salish origins,0
-Indigenous North American,First Nations,109,"Interior Salish, n.o.s.",Interior Salish origins,0
-Indigenous North American,First Nations,110,Nlaka'pamux (Thompson),Interior Salish origins,0
-Indigenous North American,First Nations,113,St'at'imc (Lillooet),Interior Salish origins,0
-Indigenous North American,First Nations,114,"Interior Salish origins, n.i.e.",Interior Salish origins,0
-Indigenous North American,First Nations,117,Assiniboine,Siouan origins,0
-Indigenous North American,First Nations,118,Dakota,Siouan origins,0
-Indigenous North American,First Nations,120,Stoney (Nakoda),Siouan origins,0
-Indigenous North American,First Nations,122,Wuikinuxv,First Nations (North American Indian) origins,0
-Indigenous North American,Métis,128,Métis,North American Indigenous origins,15875
-Indigenous North American,Inuit,125,"Inuit, n.o.s.",Inuit origins,805
-Indigenous North American,Inuit,127,"Inuit origins, n.i.e.",Inuit origins,25
-Indigenous North American,Inuit,126,Inuvialuit,Inuit origins,10
-Non-Indigenous North American,Canadian,137,Canadian,Other North American origins,414980
-Non-Indigenous North American,Canadian,146,Ontarian,Other North American origins,12245
-Non-Indigenous North American,Canadian,144,Newfoundlander,Other North American origins,8225
-Non-Indigenous North American,Canadian,145,Nova Scotian,Other North American origins,2815
-Non-Indigenous North American,Canadian,151,United Empire Loyalist,Other North American origins,1545
-Non-Indigenous North American,Canadian,143,New Brunswicker,Other North American origins,1380
-Non-Indigenous North American,Canadian,148,Prince Edward Islander,Other North American origins,690
-Non-Indigenous North American,Canadian,138,Cape Bretoner,Other North American origins,640
-Non-Indigenous North American,Canadian,142,Manitoban,Other North American origins,370
-Non-Indigenous North American,Canadian,150,Saskatchewanian,Other North American origins,365
-Non-Indigenous North American,Canadian,134,Albertan,Other North American origins,295
-Non-Indigenous North American,Canadian,136,British Columbian,Other North American origins,285
-Non-Indigenous North American,Canadian,152,"Other North American origins, n.i.e.",Other North American origins,200
-Non-Indigenous North American,French North American,140,French Canadian,Other North American origins,32465
-Non-Indigenous North American,French North American,130,Acadian,Other North American origins,7360
-Non-Indigenous North American,French North American,149,Québécois,Other North American origins,4925
-Non-Indigenous North American,French North American,139,Franco Ontarian,Other North American origins,1445
-Non-Indigenous North American,French North American,141,Gaspesian,Other North American origins,180
-Non-Indigenous North American,American (USA),135,American,Other North American origins,41250
-European,British and Irish,159,English,British Isles origins,538090
-European,British and Irish,160,Irish,British Isles origins,461660
-European,British and Irish,164,Scottish,British Isles origins,439565
-European,British and Irish,156,"British Isles, n.o.s.",British Isles origins,138210
-European,British and Irish,166,Welsh,British Isles origins,47075
-European,British and Irish,162,Northern Irish,British Isles origins,5720
-European,British and Irish,245,"Celtic, n.o.s.",Other European origins,3370
-European,British and Irish,161,Manx,British Isles origins,545
-European,British and Irish,157,Channel Islander,British Isles origins,515
-European,British and Irish,158,Cornish,British Isles origins,455
-European,British and Irish,165,Ulster Scot,British Isles origins,230
-European,British and Irish,167,"British Isles origins, n.i.e.",British Isles origins,135
-European,British and Irish,163,Orcadian,British Isles origins,40
-European,French,169,"French, n.o.s.",French origins,167140
-European,French,173,Norman,French origins,515
-European,French,522,Huguenot,Other ethnic and cultural origins,455
-European,French,170,Alsatian,French origins,355
-European,French,171,Breton,French origins,195
-European,French,174,"French origins, n.i.e.",French origins,115
-European,French,172,Corsican,French origins,65
-European,German,183,German,Other Western European origins,216880
-European,German,525,Mennonite,Other ethnic and cultural origins,2845
-European,German,147,Pennsylvania Dutch,Other North American origins,1600
-European,German,178,Bavarian,Other Western European origins,155
-European,German,510,Amish,Other ethnic and cultural origins,70
-European,German,523,Hutterite,Other ethnic and cultural origins,25
-European,Other Western European,180,Dutch,Other Western European origins,79940
-European,Other Western European,177,Austrian,Other Western European origins,22685
-European,Other Western European,185,Swiss,Other Western European origins,12170
-European,Other Western European,179,Belgian,Other Western European origins,8935
-European,Other Western European,176,"Western European, n.o.s.",Other Western European origins,4290
-European,Other Western European,181,Flemish,Other Western European origins,745
-European,Other Western European,184,Luxembourger,Other Western European origins,380
-European,Other Western European,182,Frisian,Other Western European origins,305
-European,Other Western European,186,Walloon,Other Western European origins,90
-European,Other Western European,187,"Other Western European origins, n.i.e.",Other Western European origins,30
-European,Northern European,195,Swedish,Other Northern European origins,16405
-European,Northern European,193,Norwegian,Other Northern European origins,15540
-European,Northern European,191,Finnish,Other Northern European origins,14710
-European,Northern European,190,Danish,Other Northern European origins,14060
-European,Northern European,189,"Northern European, n.o.s.",Other Northern European origins,8255
-European,Northern European,192,Icelandic,Other Northern European origins,4300
-European,Northern European,196,"Other Northern European origins, n.i.e.",Other Northern European origins,920
-European,Northern European,194,Sami,Other Northern European origins,130
-European,Polish,238,Polish,Eastern European origins,181380
-European,Polish,235,Kashubian,Eastern European origins,90
-European,Russian,239,Russian,Eastern European origins,109285
-European,Russian,519,Doukhobor,Other ethnic and cultural origins,35
-European,Ukrainian,242,Ukrainian,Eastern European origins,122925
-European,Ukrainian,240,Ruthenian,Eastern European origins,170
-European,Other Eastern European,234,Hungarian,Eastern European origins,47575
-European,Other Eastern European,221,Romanian,Southeast European origins,39635
-European,Other Eastern European,228,"Eastern European, n.o.s.",Eastern European origins,18070
-European,Other Eastern European,237,Lithuanian,Eastern European origins,14080
-European,Other Eastern European,231,Czech,Eastern European origins,13610
-European,Other Eastern European,241,Slovak,Eastern European origins,12490
-European,Other Eastern European,247,"Slavic, n.o.s.",Other European origins,9010
-European,Other Eastern European,236,Latvian,Eastern European origins,7845
-European,Other Eastern European,233,Estonian,Eastern European origins,6445
-European,Other Eastern European,230,Byelorussian,Eastern European origins,6080
-European,Other Eastern European,232,"Czechoslovakian, n.o.s.",Eastern European origins,3230
-European,Other Eastern European,219,Moldovan,Southeast European origins,2995
-European,Other Eastern European,243,"Eastern European origins, n.i.e.",Eastern European origins,1135
-European,Other Eastern European,224,Transylvanian,Southeast European origins,315
-European,Other Eastern European,229,Bohemian,Eastern European origins,170
-European,Italian,204,Italian,Southern European origins,444755
-European,Italian,207,Sicilian,Southern European origins,2190
-European,Portuguese,206,Portuguese,Southern European origins,180820
-European,Portuguese,199,Azorean,Southern European origins,3515
-European,Spanish,208,Spanish,Southern European origins,82745
-European,Spanish,200,Basque,Southern European origins,585
-European,Spanish,201,Catalan,Southern European origins,220
-European,Spanish,202,Galician,Southern European origins,185
-European,Greek,203,Greek,Southern European origins,90400
-European,Greek,416,Cypriot,West and Central Asian and Middle Eastern origins,2255
-European,Greek,418,Greek Cypriot,West and Central Asian and Middle Eastern origins,955
-European,Other Balkan,216,Croatian,Southeast European origins,34470
-European,Other Balkan,222,Serbian,Southeast European origins,29595
-European,Other Balkan,218,Macedonian,Southeast European origins,24100
-European,Other Balkan,212,Albanian,Southeast European origins,20205
-European,Other Balkan,223,Slovenian,Southeast European origins,11880
-European,Other Balkan,215,Bulgarian,Southeast European origins,9875
-European,Other Balkan,214,Bosnian,Southeast European origins,7120
-European,Other Balkan,225,"Yugoslavian, n.o.s.",Southeast European origins,5325
-European,Other Balkan,220,Montenegrin,Southeast European origins,1525
-European,Other Balkan,226,"Southeast European origins, n.i.e.",Southeast European origins,975
-European,Other Balkan,217,Kosovar,Southeast European origins,605
-European,Other Balkan,213,Bosniak,Southeast European origins,360
-European,Other Balkan,211,"Southeast European, n.o.s.",Southeast European origins,105
-European,Other European,154,"European, n.o.s.",European origins,69495
-European,Other European,514,"Caucasian (White), n.o.s.",Other ethnic and cultural origins,58615
-European,Other European,205,Maltese,Southern European origins,17145
-European,Other European,246,Roma,Other European origins,1935
-European,Other European,198,"Southern European, n.o.s.",Southern European origins,800
-European,Other European,248,"Other European origins, n.i.e.",Other European origins,485
-European,Other European,209,"Southern European origins, n.i.e.",Southern European origins,105
-Middle Eastern and North African,Levantine Arab,428,Lebanese,West and Central Asian and Middle Eastern origins,25315
-Middle Eastern and North African,Levantine Arab,434,Syrian,West and Central Asian and Middle Eastern origins,19370
-Middle Eastern and North African,Levantine Arab,430,Palestinian,West and Central Asian and Middle Eastern origins,15330
-Middle Eastern and North African,Levantine Arab,423,Jordanian,West and Central Asian and Middle Eastern origins,4265
-Middle Eastern and North African,"Iraqi, Assyrian and Gulf",421,Iraqi,West and Central Asian and Middle Eastern origins,23330
-Middle Eastern and North African,"Iraqi, Assyrian and Gulf",412,Assyrian,West and Central Asian and Middle Eastern origins,10195
-Middle Eastern and North African,"Iraqi, Assyrian and Gulf",515,Chaldean,Other ethnic and cultural origins,4750
-Middle Eastern and North African,"Iraqi, Assyrian and Gulf",441,Yemeni,West and Central Asian and Middle Eastern origins,2925
-Middle Eastern and North African,"Iraqi, Assyrian and Gulf",433,Saudi Arabian,West and Central Asian and Middle Eastern origins,1270
-Middle Eastern and North African,"Iraqi, Assyrian and Gulf",426,Kuwaiti,West and Central Asian and Middle Eastern origins,400
-Middle Eastern and North African,"Iraqi, Assyrian and Gulf",429,Omani,West and Central Asian and Middle Eastern origins,285
-Middle Eastern and North African,Egyptian and North African,358,Egyptian,North African origins,35265
-Middle Eastern and North African,Egyptian and North African,517,Coptic,Other ethnic and cultural origins,11375
-Middle Eastern and North African,Egyptian and North African,361,Moroccan,North African origins,7520
-Middle Eastern and North African,Egyptian and North African,362,Sudanese,North African origins,4015
-Middle Eastern and North African,Egyptian and North African,355,Algerian,North African origins,2055
-Middle Eastern and North African,Egyptian and North African,354,"North African, n.o.s.",North African origins,1780
-Middle Eastern and North African,Egyptian and North African,360,Libyan,North African origins,1095
-Middle Eastern and North African,Egyptian and North African,363,Tunisian,North African origins,1000
-Middle Eastern and North African,Egyptian and North African,356,Berber,North African origins,965
-Middle Eastern and North African,Egyptian and North African,386,Nubian,Southern and East African origins,250
-Middle Eastern and North African,Egyptian and North African,359,Kabyle,North African origins,100
-Middle Eastern and North African,Egyptian and North African,364,"North African origins, n.i.e.",North African origins,80
-Middle Eastern and North African,Iranian,420,Iranian,West and Central Asian and Middle Eastern origins,88915
-Middle Eastern and North African,Iranian,432,Persian,West and Central Asian and Middle Eastern origins,36450
-Middle Eastern and North African,Iranian,529,Zoroastrian,Other ethnic and cultural origins,1370
-Middle Eastern and North African,Kurdish,425,Kurdish,West and Central Asian and Middle Eastern origins,6630
-Middle Eastern and North African,Kurdish,528,Yazidi,Other ethnic and cultural origins,115
-Middle Eastern and North African,Turkish,437,Turkish,West and Central Asian and Middle Eastern origins,28490
-Middle Eastern and North African,Armenian and Caucasian,411,Armenian,West and Central Asian and Middle Eastern origins,21630
-Middle Eastern and North African,Armenian and Caucasian,413,Azerbaijani,West and Central Asian and Middle Eastern origins,4845
-Middle Eastern and North African,Armenian and Caucasian,417,Georgian,West and Central Asian and Middle Eastern origins,2800
-Middle Eastern and North African,Armenian and Caucasian,415,Circassian,West and Central Asian and Middle Eastern origins,435
-Middle Eastern and North African,Afghan and Central Asian,410,Afghan,West and Central Asian and Middle Eastern origins,43075
-Middle Eastern and North African,Afghan and Central Asian,431,Pashtun,West and Central Asian and Middle Eastern origins,4470
-Middle Eastern and North African,Afghan and Central Asian,435,Tajik,West and Central Asian and Middle Eastern origins,2895
-Middle Eastern and North African,Afghan and Central Asian,440,Uzbek,West and Central Asian and Middle Eastern origins,2260
-Middle Eastern and North African,Afghan and Central Asian,436,Tatar,West and Central Asian and Middle Eastern origins,1890
-Middle Eastern and North African,Afghan and Central Asian,419,Hazara,West and Central Asian and Middle Eastern origins,1690
-Middle Eastern and North African,Afghan and Central Asian,424,Kazakh,West and Central Asian and Middle Eastern origins,1625
-Middle Eastern and North African,Afghan and Central Asian,414,Baloch,West and Central Asian and Middle Eastern origins,710
-Middle Eastern and North African,Afghan and Central Asian,439,Uyghur,West and Central Asian and Middle Eastern origins,515
-Middle Eastern and North African,Afghan and Central Asian,438,Turkmen,West and Central Asian and Middle Eastern origins,400
-Middle Eastern and North African,Afghan and Central Asian,427,Kyrgyz,West and Central Asian and Middle Eastern origins,365
-Middle Eastern and North African,Other Arab and Middle Eastern,511,"Arab, n.o.s.",Other ethnic and cultural origins,51380
-Middle Eastern and North African,Other Arab and Middle Eastern,409,"West or Central Asian or Middle Eastern, n.o.s.",West and Central Asian and Middle Eastern origins,20855
-Middle Eastern and North African,Other Arab and Middle Eastern,442,"West and Central Asian and Middle Eastern origins, n.i.e.",West and Central Asian and Middle Eastern origins,1990
-African and Black Diaspora,Black diaspora,308,"African, n.o.s.",African origins,95125
-African and Black Diaspora,Black diaspora,512,"Black, n.o.s.",Other ethnic and cultural origins,41330
-African and Black Diaspora,Black diaspora,132,African Canadian,Other North American origins,12435
-African and Black Diaspora,Black diaspora,131,African American,Other North American origins,8065
-African and Black Diaspora,Black diaspora,370,"Bantu, n.o.s.",Southern and East African origins,1460
-African and Black Diaspora,Black diaspora,133,African Nova Scotian,Other North American origins,1035
-African and Black Diaspora,Black diaspora,405,"African origins, n.i.e.",African origins,130
-African and Black Diaspora,Nigerian,343,Nigerian,Central and West African origins,22065
-African and Black Diaspora,Nigerian,351,Yoruba,Central and West African origins,11985
-African and Black Diaspora,Nigerian,335,Igbo,Central and West African origins,4825
-African and Black Diaspora,Nigerian,324,Edo,Central and West African origins,2490
-African and Black Diaspora,Nigerian,325,Esan,Central and West African origins,665
-African and Black Diaspora,Nigerian,334,Hausa,Central and West African origins,245
-African and Black Diaspora,Ghanaian,332,Ghanaian,Central and West African origins,15600
-African and Black Diaspora,Ghanaian,311,"Akan, n.o.s.",Central and West African origins,2875
-African and Black Diaspora,Ghanaian,313,Ashanti,Central and West African origins,2590
-African and Black Diaspora,Ghanaian,326,Ewe,Central and West African origins,560
-African and Black Diaspora,Ghanaian,327,Fante,Central and West African origins,560
-African and Black Diaspora,Ghanaian,329,Ga-Adangbe,Central and West African origins,420
-African and Black Diaspora,Other West and Central African,323,Congolese,Central and West African origins,4345
-African and Black Diaspora,Other West and Central African,352,"Central and West African origins, n.i.e.",Central and West African origins,2425
-African and Black Diaspora,Other West and Central African,310,"Central or West African, n.o.s.",Central and West African origins,2345
-African and Black Diaspora,Other West and Central African,319,Cameroonian,Central and West African origins,1825
-African and Black Diaspora,Other West and Central African,312,Angolan,Central and West African origins,1005
-African and Black Diaspora,Other West and Central African,336,Ivorian,Central and West African origins,970
-African and Black Diaspora,Other West and Central African,317,Beninese,Central and West African origins,805
-African and Black Diaspora,Other West and Central African,328,Fulani,Central and West African origins,620
-African and Black Diaspora,Other West and Central African,347,Sierra Leonean,Central and West African origins,620
-African and Black Diaspora,Other West and Central African,331,Gambian,Central and West African origins,565
-African and Black Diaspora,Other West and Central African,315,Bamileke,Central and West African origins,450
-African and Black Diaspora,Other West and Central African,333,Guinean,Central and West African origins,440
-African and Black Diaspora,Other West and Central African,339,Malian,Central and West African origins,430
-African and Black Diaspora,Other West and Central African,345,Senegalese,Central and West African origins,425
-African and Black Diaspora,Other West and Central African,321,Central African,Central and West African origins,415
-African and Black Diaspora,Other West and Central African,338,Luba,Central and West African origins,410
-African and Black Diaspora,Other West and Central African,349,Togolese,Central and West African origins,330
-African and Black Diaspora,Other West and Central African,337,Liberian,Central and West African origins,255
-African and Black Diaspora,Other West and Central African,340,Malinké,Central and West African origins,235
-African and Black Diaspora,Other West and Central African,322,Chadian,Central and West African origins,215
-African and Black Diaspora,Other West and Central African,350,Wolof,Central and West African origins,210
-African and Black Diaspora,Other West and Central African,320,Cape Verdean,Central and West African origins,205
-African and Black Diaspora,Other West and Central African,318,Burkinabe,Central and West African origins,120
-African and Black Diaspora,Other West and Central African,341,Mauritanian,Central and West African origins,120
-African and Black Diaspora,Other West and Central African,314,Bambara,Central and West African origins,115
-African and Black Diaspora,Other West and Central African,344,Nigerien,Central and West African origins,110
-African and Black Diaspora,Other West and Central African,342,Mossi,Central and West African origins,90
-African and Black Diaspora,Other West and Central African,316,Baoulé,Central and West African origins,70
-African and Black Diaspora,Other West and Central African,348,Soninke,Central and West African origins,55
-African and Black Diaspora,Other West and Central African,330,Gabonese,Central and West African origins,35
-African and Black Diaspora,Other West and Central African,346,Serer,Central and West African origins,10
-African and Black Diaspora,Horn of Africa,392,Somali,Southern and East African origins,24760
-African and Black Diaspora,Horn of Africa,374,Ethiopian,Southern and East African origins,13515
-African and Black Diaspora,Horn of Africa,373,Eritrean,Southern and East African origins,9380
-African and Black Diaspora,Horn of Africa,397,Tigrinya,Southern and East African origins,2570
-African and Black Diaspora,Horn of Africa,369,Amhara,Southern and East African origins,2165
-African and Black Diaspora,Horn of Africa,387,Oromo,Southern and East African origins,2000
-African and Black Diaspora,Horn of Africa,375,Harari,Southern and East African origins,840
-African and Black Diaspora,Horn of Africa,372,Djiboutian,Southern and East African origins,275
-African and Black Diaspora,Horn of Africa,367,Afar,Southern and East African origins,185
-African and Black Diaspora,East African,366,"Southern or East African, n.o.s.",Southern and East African origins,6635
-African and Black Diaspora,East African,377,Kenyan,Southern and East African origins,4540
-African and Black Diaspora,East African,382,Mauritian,Southern and East African origins,3740
-African and Black Diaspora,East African,396,Tanzanian,Southern and East African origins,3620
-African and Black Diaspora,East African,400,Ugandan,Southern and East African origins,3135
-African and Black Diaspora,East African,404,"Southern and East African origins, n.i.e.",Southern and East African origins,2480
-African and Black Diaspora,East African,389,Rwandan,Southern and East African origins,880
-African and Black Diaspora,East African,371,Burundian,Southern and East African origins,610
-African and Black Diaspora,East African,378,Kikuyu,Southern and East African origins,600
-African and Black Diaspora,East African,395,Swahili,Southern and East African origins,400
-African and Black Diaspora,East African,399,Tutsi,Southern and East African origins,350
-African and Black Diaspora,East African,394,South Sudanese,Southern and East African origins,245
-African and Black Diaspora,East African,379,Luo,Southern and East African origins,235
-African and Black Diaspora,East African,380,Malagasy,Southern and East African origins,210
-African and Black Diaspora,East African,390,Seychellois,Southern and East African origins,150
-African and Black Diaspora,East African,376,Hutu,Southern and East African origins,85
-African and Black Diaspora,East African,388,Réunionnais,Southern and East African origins,45
-African and Black Diaspora,East African,357,Dinka,North African origins,35
-African and Black Diaspora,Southern African,393,South African,Southern and East African origins,11760
-African and Black Diaspora,Southern African,402,Zimbabwean,Southern and East African origins,1640
-African and Black Diaspora,Southern African,368,Afrikaner,Southern and East African origins,625
-African and Black Diaspora,Southern African,391,Shona,Southern and East African origins,375
-African and Black Diaspora,Southern African,401,Zambian,Southern and East African origins,375
-African and Black Diaspora,Southern African,398,Tswana (Batswana),Southern and East African origins,370
-African and Black Diaspora,Southern African,403,Zulu,Southern and East African origins,210
-African and Black Diaspora,Southern African,385,Ndebele,Southern and East African origins,195
-African and Black Diaspora,Southern African,381,Malawian,Southern and East African origins,170
-African and Black Diaspora,Southern African,383,Mozambican,Southern and East African origins,145
-African and Black Diaspora,Southern African,384,Namibian,Southern and East African origins,95
-Caribbean,Jamaican,265,Jamaican,Caribbean origins,140870
-Caribbean,Jamaican,267,Maroon,Caribbean origins,905
-Caribbean,Trinidadian and Tobagonian,272,Trinidadian/Tobagonian,Caribbean origins,41110
-Caribbean,Guyanese and Indo-Caribbean,288,Guyanese,"Latin, Central and South American origins",65305
-Caribbean,Guyanese and Indo-Caribbean,264,Indo-Caribbean,Caribbean origins,7010
-Caribbean,Guyanese and Indo-Caribbean,292,Indo-Guyanese,"Latin, Central and South American origins",6320
-Caribbean,Guyanese and Indo-Caribbean,278,Arawak,"Latin, Central and South American origins",1260
-Caribbean,Guyanese and Indo-Caribbean,303,Surinamese,"Latin, Central and South American origins",345
-Caribbean,Other Caribbean,274,"West Indian, n.o.s.",Caribbean origins,33275
-Caribbean,Other Caribbean,251,African Caribbean,Caribbean origins,32995
-Caribbean,Other Caribbean,250,"Caribbean, n.o.s.",Caribbean origins,29100
-Caribbean,Other Caribbean,255,Barbadian,Caribbean origins,13070
-Caribbean,Other Caribbean,261,Grenadian,Caribbean origins,8065
-Caribbean,Other Caribbean,273,Vincentian,Caribbean origins,7015
-Caribbean,Other Caribbean,271,St. Lucian,Caribbean origins,3815
-Caribbean,Other Caribbean,257,Carib,Caribbean origins,2585
-Caribbean,Other Caribbean,252,Antiguan,Caribbean origins,1905
-Caribbean,Other Caribbean,266,Kittitian/Nevisian,Caribbean origins,1515
-Caribbean,Other Caribbean,254,Bahamian,Caribbean origins,1470
-Caribbean,Other Caribbean,256,Bermudian,Caribbean origins,910
-Caribbean,Other Caribbean,259,Dominica Islander,Caribbean origins,845
-Caribbean,Other Caribbean,269,Montserratian,Caribbean origins,360
-Caribbean,Other Caribbean,275,"Caribbean origins, n.i.e.",Caribbean origins,355
-Caribbean,Other Caribbean,253,Aruban,Caribbean origins,335
-Caribbean,Haitian and Francophone Caribbean,263,Haitian,Caribbean origins,4330
-Caribbean,Haitian and Francophone Caribbean,268,Martinican,Caribbean origins,145
-Caribbean,Haitian and Francophone Caribbean,262,Guadeloupean,Caribbean origins,115
-Latin American,Hispanic Caribbean,258,Cuban,Caribbean origins,8495
-Latin American,Hispanic Caribbean,260,Dominican,Caribbean origins,5335
-Latin American,Hispanic Caribbean,270,Puerto Rican,Caribbean origins,855
-Latin American,Mexican,295,Mexican,"Latin, Central and South American origins",24165
-Latin American,Central American,302,Salvadorean,"Latin, Central and South American origins",12075
-Latin American,Central American,287,Guatemalan,"Latin, Central and South American origins",5225
-Latin American,Central American,296,Nicaraguan,"Latin, Central and South American origins",3440
-Latin American,Central American,294,Mayan,"Latin, Central and South American origins",1885
-Latin American,Central American,290,Honduran,"Latin, Central and South American origins",1740
-Latin American,Central American,285,Costa Rican,"Latin, Central and South American origins",1535
-Latin American,Central American,297,Panamanian,"Latin, Central and South American origins",1465
-Latin American,Central American,280,Belizean,"Latin, Central and South American origins",315
-Latin American,Central American,300,Pipil,"Latin, Central and South American origins",195
-Latin American,Andean and Northern South American,284,Colombian,"Latin, Central and South American origins",20975
-Latin American,Andean and Northern South American,286,Ecuadorian,"Latin, Central and South American origins",15755
-Latin American,Andean and Northern South American,299,Peruvian,"Latin, Central and South American origins",10695
-Latin American,Andean and Northern South American,305,Venezuelan,"Latin, Central and South American origins",8160
-Latin American,Andean and Northern South American,281,Bolivian,"Latin, Central and South American origins",1185
-Latin American,Andean and Northern South American,301,Quechua,"Latin, Central and South American origins",340
-Latin American,Southern Cone,283,Chilean,"Latin, Central and South American origins",9365
-Latin American,Southern Cone,279,Argentinian,"Latin, Central and South American origins",8140
-Latin American,Southern Cone,304,Uruguayan,"Latin, Central and South American origins",3450
-Latin American,Southern Cone,298,Paraguayan,"Latin, Central and South American origins",345
-Latin American,Southern Cone,293,Mapuche,"Latin, Central and South American origins",330
-Latin American,Brazilian,282,Brazilian,"Latin, Central and South American origins",21755
-Latin American,Other Latin American,277,"Latin, Central or South American, n.o.s.","Latin, Central and South American origins",30495
-Latin American,Other Latin American,291,"Indigenous origins from Latin, Central and South America, n.i.e.","Latin, Central and South American origins",15030
-Latin American,Other Latin American,289,"Hispanic, n.o.s.","Latin, Central and South American origins",14210
-Latin American,Other Latin American,306,"Latin, Central and South American origins, n.i.e.","Latin, Central and South American origins",20
-East Asian,Chinese,471,Chinese,East and Southeast Asian origins,668700
-East Asian,Hong Konger,474,Hong Konger,East and Southeast Asian origins,37570
-East Asian,Taiwanese,487,Taiwanese,East and Southeast Asian origins,14155
-East Asian,Korean,481,Korean,East and Southeast Asian origins,74975
-East Asian,Japanese,478,Japanese,East and Southeast Asian origins,27255
-East Asian,Other East Asian,466,"East or Southeast Asian, n.o.s.",East and Southeast Asian origins,26205
-East Asian,Other East Asian,485,Mongolian,East and Southeast Asian origins,2120
-East Asian,Other East Asian,491,"East and Southeast Asian origins, n.i.e.",East and Southeast Asian origins,450
-Southeast Asian,Filipino,472,Filipino,East and Southeast Asian origins,272475
-Southeast Asian,Filipino,476,Ilocano,East and Southeast Asian origins,8605
-Southeast Asian,Filipino,475,Igorot,East and Southeast Asian origins,1440
-Southeast Asian,Vietnamese,490,Vietnamese,East and Southeast Asian origins,82225
-Southeast Asian,Other Mainland Southeast Asian,469,Cambodian (Khmer),East and Southeast Asian origins,6225
-Southeast Asian,Other Mainland Southeast Asian,482,Laotian,East and Southeast Asian origins,4810
-Southeast Asian,Other Mainland Southeast Asian,488,Thai,East and Southeast Asian origins,3700
-Southeast Asian,Other Mainland Southeast Asian,468,Burmese,East and Southeast Asian origins,2165
-Southeast Asian,Other Mainland Southeast Asian,480,Karen,East and Southeast Asian origins,310
-Southeast Asian,Other Mainland Southeast Asian,470,Chin,East and Southeast Asian origins,295
-Southeast Asian,Other Mainland Southeast Asian,473,Hmong,East and Southeast Asian origins,75
-Southeast Asian,Maritime Southeast Asian,477,Indonesian,East and Southeast Asian origins,6415
-Southeast Asian,Maritime Southeast Asian,484,Malaysian,East and Southeast Asian origins,5150
-Southeast Asian,Maritime Southeast Asian,483,Malay,East and Southeast Asian origins,3060
-Southeast Asian,Maritime Southeast Asian,486,Singaporean,East and Southeast Asian origins,1685
-Southeast Asian,Maritime Southeast Asian,479,Javanese,East and Southeast Asian origins,300
-Southeast Asian,Maritime Southeast Asian,467,Bruneian,East and Southeast Asian origins,55
-South Asian,Indian,451,Indian (India),South Asian origins,578095
-South Asian,Indian,445,Anglo-Indian,South Asian origins,1780
-South Asian,Punjabi and Sikh,458,Punjabi,South Asian origins,95820
-South Asian,Punjabi and Sikh,527,Sikh,Other ethnic and cultural origins,63980
-South Asian,Punjabi and Sikh,452,Jatt,South Asian origins,7410
-South Asian,Gujarati and Western Indian,450,Gujarati,South Asian origins,19345
-South Asian,Gujarati and Western Indian,449,Goan,South Asian origins,6750
-South Asian,Gujarati and Western Indian,454,Maharashtrian,South Asian origins,2330
-South Asian,South Indian,455,Malayali,South Asian origins,5185
-South Asian,South Indian,463,Telugu,South Asian origins,3810
-South Asian,Pakistani,457,Pakistani,South Asian origins,162710
-South Asian,Pakistani,453,Kashmiri,South Asian origins,2985
-South Asian,Pakistani,459,Sindhi,South Asian origins,2130
-South Asian,Sri Lankan and Tamil,461,Sri Lankan,South Asian origins,91525
-South Asian,Sri Lankan and Tamil,462,Tamil,South Asian origins,76250
-South Asian,Sri Lankan and Tamil,460,Sinhalese,South Asian origins,5935
-South Asian,Bangladeshi and Bengali,446,Bangladeshi,South Asian origins,36670
-South Asian,Bangladeshi and Bengali,447,Bengali,South Asian origins,13070
-South Asian,Himalayan,489,Tibetan,East and Southeast Asian origins,6905
-South Asian,Himalayan,456,Nepali,South Asian origins,6870
-South Asian,Himalayan,448,Bhutanese,South Asian origins,160
-South Asian,Other South Asian,521,Hindu,Other ethnic and cultural origins,84055
-South Asian,Other South Asian,444,"South Asian, n.o.s.",South Asian origins,67855
-South Asian,Other South Asian,464,"South Asian origins, n.i.e.",South Asian origins,4900
-Oceanian,Australian and New Zealander,505,Australian,Other Oceanian origins,5935
-Oceanian,Australian and New Zealander,507,New Zealander,Other Oceanian origins,1985
-Oceanian,Australian and New Zealander,508,"Other Oceanian origins, n.i.e.",Other Oceanian origins,110
-Oceanian,Australian and New Zealander,494,"Oceanian, n.o.s.",Oceanian origins,20
-Oceanian,Pacific Islander,497,Fijian,Pacific Islands origins,1665
-Oceanian,Pacific Islander,496,"Pacific Islander, n.o.s.",Pacific Islands origins,1595
-Oceanian,Pacific Islander,499,Indo-Fijian,Pacific Islands origins,415
-Oceanian,Pacific Islander,500,"Polynesian, n.o.s.",Pacific Islands origins,385
-Oceanian,Pacific Islander,506,Maori,Other Oceanian origins,185
-Oceanian,Pacific Islander,503,"Pacific Islands origins, n.i.e.",Pacific Islands origins,165
-Oceanian,Pacific Islander,498,Hawaiian,Pacific Islands origins,155
-Oceanian,Pacific Islander,501,Samoan,Pacific Islands origins,110
-Oceanian,Pacific Islander,502,Tongan,Pacific Islands origins,65
-Jewish,Jewish and Israeli,524,Jewish,Other ethnic and cultural origins,119435
-Jewish,Jewish and Israeli,422,Israeli,West and Central Asian and Middle Eastern origins,16895
-Other,Other,407,"Asian, n.o.s.",Asian origins,85770
-Other,Other,3,"North American, n.o.s.",North American origins,2275
-Other,Other,530,"Other ethnic and cultural origins, n.i.e.",Other ethnic and cultural origins,1930
-Other,Other,518,"Creole, n.o.s.",Other ethnic and cultural origins,545
-Other,Other,520,"Eurasian, n.o.s.",Other ethnic and cultural origins,460
-Other,Other,492,"Asian origins, n.i.e.",Asian origins,145
+broad,sub,member_id,da_profile_id,origin,statcan_group,toronto_cma_responses
+Indigenous North American,First Nations,7,1716,"First Nations (North American Indian), n.o.s.",First Nations (North American Indian) origins,18310
+Indigenous North American,First Nations,5,1744,"North American Indigenous, n.o.s.",North American Indigenous origins,7525
+Indigenous North American,First Nations,80,1758,"Mi'kmaq, n.o.s.",Mi'kmaq origins,5225
+Indigenous North American,First Nations,13,1773,Ojibway,Anishinaabe origins,4455
+Indigenous North American,First Nations,66,1821,Mohawk,Iroquoian (Haudenosaunee) origins,2365
+Indigenous North American,First Nations,30,1737,"Cree, n.o.s.",Cree origins,2315
+Indigenous North American,First Nations,11,1796,Algonquin,Anishinaabe origins,1215
+Indigenous North American,First Nations,10,1881,"Anishinaabe, n.o.s.",Anishinaabe origins,750
+Indigenous North American,First Nations,64,1865,"Iroquois (Haudenosaunee), n.o.s.",Iroquoian (Haudenosaunee) origins,650
+Indigenous North American,First Nations,21,1862,"Blackfoot, n.o.s.",Blackfoot origins,560
+Indigenous North American,First Nations,26,1899,Cherokee,First Nations (North American Indian) origins,540
+Indigenous North American,First Nations,81,1900,Qalipu Mi'kmaq,Mi'kmaq origins,400
+Indigenous North American,First Nations,59,1873,Huron (Wendat),First Nations (North American Indian) origins,350
+Indigenous North American,First Nations,61,1834,"Innu/Montagnais, n.o.s.",Innu origins,165
+Indigenous North American,First Nations,16,1880,Saulteaux,Anishinaabe origins,160
+Indigenous North American,First Nations,8,1863,Abenaki,First Nations (North American Indian) origins,155
+Indigenous North American,First Nations,67,,Oneida,Iroquoian (Haudenosaunee) origins,140
+Indigenous North American,First Nations,123,,"First Nations (North American Indian) origins, n.i.e.",First Nations (North American Indian) origins,135
+Indigenous North American,First Nations,116,,"Sioux, n.o.s.",Siouan origins,125
+Indigenous North American,First Nations,32,1871,Plains Cree,Cree origins,120
+Indigenous North American,First Nations,69,,"Iroquoian (Haudenosaunee) origins, n.i.e.",Iroquoian (Haudenosaunee) origins,115
+Indigenous North American,First Nations,15,,Potawatomi,Anishinaabe origins,110
+Indigenous North American,First Nations,36,,Delaware (Lenape),First Nations (North American Indian) origins,85
+Indigenous North American,First Nations,65,,Cayuga,Iroquoian (Haudenosaunee) origins,85
+Indigenous North American,First Nations,12,,Odawa,Anishinaabe origins,80
+Indigenous North American,First Nations,14,1887,Oji-Cree,Anishinaabe origins,80
+Indigenous North American,First Nations,38,1861,"Dene, n.o.s.",Dene origins,75
+Indigenous North American,First Nations,96,,"Coast Salish, n.o.s.",Coast Salish origins,70
+Indigenous North American,First Nations,78,1935,Maliseet,First Nations (North American Indian) origins,60
+Indigenous North American,First Nations,42,,Chipewyan (Denesuline),Dene origins,55
+Indigenous North American,First Nations,18,,Apache,First Nations (North American Indian) origins,45
+Indigenous North American,First Nations,28,,Choctaw,First Nations (North American Indian) origins,40
+Indigenous North American,First Nations,68,,Tuscarora,Iroquoian (Haudenosaunee) origins,40
+Indigenous North American,First Nations,94,,"Salish, n.o.s.",Salish origins,40
+Indigenous North American,First Nations,112,,Secwepemc (Shuswap),Interior Salish origins,40
+Indigenous North American,First Nations,27,,Cheyenne,First Nations (North American Indian) origins,30
+Indigenous North American,First Nations,33,,Swampy Cree,Cree origins,30
+Indigenous North American,First Nations,34,1931,Woodland Cree,Cree origins,30
+Indigenous North American,First Nations,111,,Okanagan (Syilx),Interior Salish origins,30
+Indigenous North American,First Nations,17,,"Anishinaabe origins, n.i.e.",Anishinaabe origins,25
+Indigenous North American,First Nations,22,,Blood (Kainai),Blackfoot origins,20
+Indigenous North American,First Nations,31,,Moose Cree,Cree origins,20
+Indigenous North American,First Nations,40,,Carrier (Dakelh),Dene origins,20
+Indigenous North American,First Nations,56,,Haida,First Nations (North American Indian) origins,20
+Indigenous North American,First Nations,119,,Lakota,Siouan origins,20
+Indigenous North American,First Nations,19,1916,Atikamekw,First Nations (North American Indian) origins,15
+Indigenous North American,First Nations,39,,Beaver (Dunne-za),Dene origins,15
+Indigenous North American,First Nations,46,,Sahtú (North Slavey),Dene origins,15
+Indigenous North American,First Nations,55,,Gitxsan,First Nations (North American Indian) origins,15
+Indigenous North American,First Nations,83,,Nisga'a,First Nations (North American Indian) origins,15
+Indigenous North American,First Nations,121,,Tsimshian,First Nations (North American Indian) origins,15
+Indigenous North American,First Nations,70,,Ktunaxa (Kutenai),First Nations (North American Indian) origins,10
+Indigenous North American,First Nations,82,,Navajo,First Nations (North American Indian) origins,10
+Indigenous North American,First Nations,97,,Chemainus (Stz'uminus),Coast Salish origins,10
+Indigenous North American,First Nations,107,,"Coast Salish origins, n.i.e.",Coast Salish origins,10
+Indigenous North American,First Nations,23,,Piikani,Blackfoot origins,0
+Indigenous North American,First Nations,24,,Siksika,Blackfoot origins,0
+Indigenous North American,First Nations,25,,"Blackfoot origins, n.i.e.",Blackfoot origins,0
+Indigenous North American,First Nations,35,,"Cree origins, n.i.e.",Cree origins,0
+Indigenous North American,First Nations,41,,Chilcotin (Tsilhqot'in),Dene origins,0
+Indigenous North American,First Nations,43,,Dene Tha’ (Slavey),Dene origins,0
+Indigenous North American,First Nations,44,,Gwich'in,Dene origins,0
+Indigenous North American,First Nations,45,,Kaska,Dene origins,0
+Indigenous North American,First Nations,47,,Tahltan,Dene origins,0
+Indigenous North American,First Nations,48,,Tlicho (Dogrib),Dene origins,0
+Indigenous North American,First Nations,49,,Tlingit,Dene origins,0
+Indigenous North American,First Nations,50,,Tse'khene (Sekani),Dene origins,0
+Indigenous North American,First Nations,51,,Tsuut'ina (Sarcee),Dene origins,0
+Indigenous North American,First Nations,52,,Tutchone,Dene origins,0
+Indigenous North American,First Nations,53,,Wet'suwet'en,Dene origins,0
+Indigenous North American,First Nations,54,,"Dene origins, n.i.e.",Dene origins,0
+Indigenous North American,First Nations,57,,Haisla,First Nations (North American Indian) origins,0
+Indigenous North American,First Nations,58,,Heiltsuk,First Nations (North American Indian) origins,0
+Indigenous North American,First Nations,62,,Naskapi,Innu origins,0
+Indigenous North American,First Nations,72,,"Kwakwaka'wakw, n.o.s.",Kwakwaka'wakw origins,0
+Indigenous North American,First Nations,73,,Kwakiutl,Kwakwaka'wakw origins,0
+Indigenous North American,First Nations,74,,Laich-kwil-tach,Kwakwaka'wakw origins,0
+Indigenous North American,First Nations,75,,'Namgis,Kwakwaka'wakw origins,0
+Indigenous North American,First Nations,76,,Quatsino,Kwakwaka'wakw origins,0
+Indigenous North American,First Nations,77,,"Kwakwaka'wakw origins, n.i.e.",Kwakwaka'wakw origins,0
+Indigenous North American,First Nations,85,,"Nuu-chah-nulth, n.o.s.",Nuu-chah-nulth origins,0
+Indigenous North American,First Nations,86,,Ahousaht,Nuu-chah-nulth origins,0
+Indigenous North American,First Nations,87,,Ditidaht,Nuu-chah-nulth origins,0
+Indigenous North American,First Nations,88,,Tla-o-qui-aht,Nuu-chah-nulth origins,0
+Indigenous North American,First Nations,89,,Tseshaht,Nuu-chah-nulth origins,0
+Indigenous North American,First Nations,90,,"Nuu-chah-nulth origins, n.i.e.",Nuu-chah-nulth origins,0
+Indigenous North American,First Nations,91,,Nuxalk,First Nations (North American Indian) origins,0
+Indigenous North American,First Nations,92,,Passamaquoddy,First Nations (North American Indian) origins,0
+Indigenous North American,First Nations,98,,Cowichan,Coast Salish origins,0
+Indigenous North American,First Nations,99,,Homalco,Coast Salish origins,0
+Indigenous North American,First Nations,100,,Musqueam,Coast Salish origins,0
+Indigenous North American,First Nations,101,,Penelakut,Coast Salish origins,0
+Indigenous North American,First Nations,102,,Shíshálh (Sechelt),Coast Salish origins,0
+Indigenous North American,First Nations,103,,Snuneymuxw,Coast Salish origins,0
+Indigenous North American,First Nations,104,,Squamish,Coast Salish origins,0
+Indigenous North American,First Nations,105,,Stó:lo,Coast Salish origins,0
+Indigenous North American,First Nations,106,,WSÁNEC (Saanich),Coast Salish origins,0
+Indigenous North American,First Nations,109,,"Interior Salish, n.o.s.",Interior Salish origins,0
+Indigenous North American,First Nations,110,,Nlaka'pamux (Thompson),Interior Salish origins,0
+Indigenous North American,First Nations,113,,St'at'imc (Lillooet),Interior Salish origins,0
+Indigenous North American,First Nations,114,,"Interior Salish origins, n.i.e.",Interior Salish origins,0
+Indigenous North American,First Nations,117,,Assiniboine,Siouan origins,0
+Indigenous North American,First Nations,118,,Dakota,Siouan origins,0
+Indigenous North American,First Nations,120,,Stoney (Nakoda),Siouan origins,0
+Indigenous North American,First Nations,122,,Wuikinuxv,First Nations (North American Indian) origins,0
+Indigenous North American,Métis,128,1717,Métis,North American Indigenous origins,15875
+Indigenous North American,Inuit,125,1780,"Inuit, n.o.s.",Inuit origins,805
+Indigenous North American,Inuit,127,,"Inuit origins, n.i.e.",Inuit origins,25
+Indigenous North American,Inuit,126,,Inuvialuit,Inuit origins,10
+Non-Indigenous North American,Canadian,137,1699,Canadian,Other North American origins,414980
+Non-Indigenous North American,Canadian,146,1776,Ontarian,Other North American origins,12245
+Non-Indigenous North American,Canadian,144,1774,Newfoundlander,Other North American origins,8225
+Non-Indigenous North American,Canadian,145,1804,Nova Scotian,Other North American origins,2815
+Non-Indigenous North American,Canadian,151,1903,United Empire Loyalist,Other North American origins,1545
+Non-Indigenous North American,Canadian,143,1816,New Brunswicker,Other North American origins,1380
+Non-Indigenous North American,Canadian,148,1934,Prince Edward Islander,Other North American origins,690
+Non-Indigenous North American,Canadian,138,1891,Cape Bretoner,Other North American origins,640
+Non-Indigenous North American,Canadian,142,1890,Manitoban,Other North American origins,370
+Non-Indigenous North American,Canadian,150,1874,Saskatchewanian,Other North American origins,365
+Non-Indigenous North American,Canadian,134,1824,Albertan,Other North American origins,295
+Non-Indigenous North American,Canadian,136,1844,British Columbian,Other North American origins,285
+Non-Indigenous North American,Canadian,152,,"Other North American origins, n.i.e.",Other North American origins,200
+Non-Indigenous North American,French North American,140,1714,French Canadian,Other North American origins,32465
+Non-Indigenous North American,French North American,130,1727,Acadian,Other North American origins,7360
+Non-Indigenous North American,French North American,149,1711,Québécois,Other North American origins,4925
+Non-Indigenous North American,French North American,139,1846,Franco Ontarian,Other North American origins,1445
+Non-Indigenous North American,French North American,141,1876,Gaspesian,Other North American origins,180
+Non-Indigenous North American,American (USA),135,1723,American,Other North American origins,41250
+European,British and Irish,159,1700,English,British Isles origins,538090
+European,British and Irish,160,1701,Irish,British Isles origins,461660
+European,British and Irish,164,1702,Scottish,British Isles origins,439565
+European,British and Irish,156,1712,"British Isles, n.o.s.",British Isles origins,138210
+European,British and Irish,166,1721,Welsh,British Isles origins,47075
+European,British and Irish,162,1842,Northern Irish,British Isles origins,5720
+European,British and Irish,245,1843,"Celtic, n.o.s.",Other European origins,3370
+European,British and Irish,161,,Manx,British Isles origins,545
+European,British and Irish,157,,Channel Islander,British Isles origins,515
+European,British and Irish,158,,Cornish,British Isles origins,455
+European,British and Irish,165,,Ulster Scot,British Isles origins,230
+European,British and Irish,167,,"British Isles origins, n.i.e.",British Isles origins,135
+European,British and Irish,163,,Orcadian,British Isles origins,40
+European,French,169,1703,"French, n.o.s.",French origins,167140
+European,French,173,1877,Norman,French origins,515
+European,French,522,,Huguenot,Other ethnic and cultural origins,455
+European,French,170,,Alsatian,French origins,355
+European,French,171,1868,Breton,French origins,195
+European,French,174,,"French origins, n.i.e.",French origins,115
+European,French,172,,Corsican,French origins,65
+European,German,183,1704,German,Other Western European origins,216880
+European,German,525,1751,Mennonite,Other ethnic and cultural origins,2845
+European,German,147,1869,Pennsylvania Dutch,Other North American origins,1600
+European,German,178,,Bavarian,Other Western European origins,155
+European,German,510,,Amish,Other ethnic and cultural origins,70
+European,German,523,,Hutterite,Other ethnic and cultural origins,25
+European,Other Western European,180,1709,Dutch,Other Western European origins,79940
+European,Other Western European,177,1746,Austrian,Other Western European origins,22685
+European,Other Western European,185,1752,Swiss,Other Western European origins,12170
+European,Other Western European,179,1747,Belgian,Other Western European origins,8935
+European,Other Western European,176,1815,"Western European, n.o.s.",Other Western European origins,4290
+European,Other Western European,181,1902,Flemish,Other Western European origins,745
+European,Other Western European,184,,Luxembourger,Other Western European origins,380
+European,Other Western European,182,,Frisian,Other Western European origins,305
+European,Other Western European,186,,Walloon,Other Western European origins,90
+European,Other Western European,187,,"Other Western European origins, n.i.e.",Other Western European origins,30
+European,Northern European,195,1725,Swedish,Other Northern European origins,16405
+European,Northern European,193,1720,Norwegian,Other Northern European origins,15540
+European,Northern European,191,1753,Finnish,Other Northern European origins,14710
+European,Northern European,190,1743,Danish,Other Northern European origins,14060
+European,Northern European,189,1759,"Northern European, n.o.s.",Other Northern European origins,8255
+European,Northern European,192,1764,Icelandic,Other Northern European origins,4300
+European,Northern European,196,,"Other Northern European origins, n.i.e.",Other Northern European origins,920
+European,Northern European,194,,Sami,Other Northern European origins,130
+European,Polish,238,1710,Polish,Eastern European origins,181380
+European,Polish,235,,Kashubian,Eastern European origins,90
+European,Russian,239,1719,Russian,Eastern European origins,109285
+European,Russian,519,,Doukhobor,Other ethnic and cultural origins,35
+European,Ukrainian,242,1708,Ukrainian,Eastern European origins,122925
+European,Ukrainian,240,,Ruthenian,Eastern European origins,170
+European,Other Eastern European,234,1726,Hungarian,Eastern European origins,47575
+European,Other Eastern European,221,1739,Romanian,Southeast European origins,39635
+European,Other Eastern European,228,1787,"Eastern European, n.o.s.",Eastern European origins,18070
+European,Other Eastern European,237,1798,Lithuanian,Eastern European origins,14080
+European,Other Eastern European,231,1767,Czech,Eastern European origins,13610
+European,Other Eastern European,241,1786,Slovak,Eastern European origins,12490
+European,Other Eastern European,247,1830,"Slavic, n.o.s.",Other European origins,9010
+European,Other Eastern European,236,1835,Latvian,Eastern European origins,7845
+European,Other Eastern European,233,1848,Estonian,Eastern European origins,6445
+European,Other Eastern European,230,1860,Byelorussian,Eastern European origins,6080
+European,Other Eastern European,232,1822,"Czechoslovakian, n.o.s.",Eastern European origins,3230
+European,Other Eastern European,219,1864,Moldovan,Southeast European origins,2995
+European,Other Eastern European,243,,"Eastern European origins, n.i.e.",Eastern European origins,1135
+European,Other Eastern European,224,,Transylvanian,Southeast European origins,315
+European,Other Eastern European,229,,Bohemian,Eastern European origins,170
+European,Italian,204,1706,Italian,Southern European origins,444755
+European,Italian,207,1906,Sicilian,Southern European origins,2190
+European,Portuguese,206,1722,Portuguese,Southern European origins,180820
+European,Portuguese,199,1915,Azorean,Southern European origins,3515
+European,Spanish,208,1724,Spanish,Southern European origins,82745
+European,Spanish,200,1925,Basque,Southern European origins,585
+European,Spanish,201,,Catalan,Southern European origins,220
+European,Spanish,202,,Galician,Southern European origins,185
+European,Greek,203,1734,Greek,Southern European origins,90400
+European,Greek,416,,Cypriot,West and Central Asian and Middle Eastern origins,2255
+European,Greek,418,,Greek Cypriot,West and Central Asian and Middle Eastern origins,955
+European,Other Balkan,216,1755,Croatian,Southeast European origins,34470
+European,Other Balkan,222,1772,Serbian,Southeast European origins,29595
+European,Other Balkan,218,1813,Macedonian,Southeast European origins,24100
+European,Other Balkan,212,1811,Albanian,Southeast European origins,20205
+European,Other Balkan,223,1814,Slovenian,Southeast European origins,11880
+European,Other Balkan,215,1823,Bulgarian,Southeast European origins,9875
+European,Other Balkan,214,1832,Bosnian,Southeast European origins,7120
+European,Other Balkan,225,1828,"Yugoslavian, n.o.s.",Southeast European origins,5325
+European,Other Balkan,220,,Montenegrin,Southeast European origins,1525
+European,Other Balkan,226,,"Southeast European origins, n.i.e.",Southeast European origins,975
+European,Other Balkan,217,,Kosovar,Southeast European origins,605
+European,Other Balkan,213,,Bosniak,Southeast European origins,360
+European,Other Balkan,211,,"Southeast European, n.o.s.",Southeast European origins,105
+European,Other European,154,1718,"European, n.o.s.",European origins,69495
+European,Other European,514,1715,"Caucasian (White), n.o.s.",Other ethnic and cultural origins,58615
+European,Other European,205,1812,Maltese,Southern European origins,17145
+European,Other European,246,1938,Roma,Other European origins,1935
+European,Other European,198,,"Southern European, n.o.s.",Southern European origins,800
+European,Other European,248,,"Other European origins, n.i.e.",Other European origins,485
+European,Other European,209,,"Southern European origins, n.i.e.",Southern European origins,105
+Middle Eastern and North African,Levantine Arab,428,1740,Lebanese,West and Central Asian and Middle Eastern origins,25315
+Middle Eastern and North African,Levantine Arab,434,1768,Syrian,West and Central Asian and Middle Eastern origins,19370
+Middle Eastern and North African,Levantine Arab,430,1801,Palestinian,West and Central Asian and Middle Eastern origins,15330
+Middle Eastern and North African,Levantine Arab,423,1889,Jordanian,West and Central Asian and Middle Eastern origins,4265
+Middle Eastern and North African,"Iraqi, Assyrian and Gulf",421,1790,Iraqi,West and Central Asian and Middle Eastern origins,23330
+Middle Eastern and North African,"Iraqi, Assyrian and Gulf",412,1858,Assyrian,West and Central Asian and Middle Eastern origins,10195
+Middle Eastern and North African,"Iraqi, Assyrian and Gulf",515,1895,Chaldean,Other ethnic and cultural origins,4750
+Middle Eastern and North African,"Iraqi, Assyrian and Gulf",441,1922,Yemeni,West and Central Asian and Middle Eastern origins,2925
+Middle Eastern and North African,"Iraqi, Assyrian and Gulf",433,,Saudi Arabian,West and Central Asian and Middle Eastern origins,1270
+Middle Eastern and North African,"Iraqi, Assyrian and Gulf",426,,Kuwaiti,West and Central Asian and Middle Eastern origins,400
+Middle Eastern and North African,"Iraqi, Assyrian and Gulf",429,,Omani,West and Central Asian and Middle Eastern origins,285
+Middle Eastern and North African,Egyptian and North African,358,1761,Egyptian,North African origins,35265
+Middle Eastern and North African,Egyptian and North African,517,1853,Coptic,Other ethnic and cultural origins,11375
+Middle Eastern and North African,Egyptian and North African,361,1766,Moroccan,North African origins,7520
+Middle Eastern and North African,Egyptian and North African,362,1867,Sudanese,North African origins,4015
+Middle Eastern and North African,Egyptian and North African,355,1782,Algerian,North African origins,2055
+Middle Eastern and North African,Egyptian and North African,354,1872,"North African, n.o.s.",North African origins,1780
+Middle Eastern and North African,Egyptian and North African,360,1924,Libyan,North African origins,1095
+Middle Eastern and North African,Egyptian and North African,363,1829,Tunisian,North African origins,1000
+Middle Eastern and North African,Egyptian and North African,356,1810,Berber,North African origins,965
+Middle Eastern and North African,Egyptian and North African,386,,Nubian,Southern and East African origins,250
+Middle Eastern and North African,Egyptian and North African,359,1857,Kabyle,North African origins,100
+Middle Eastern and North African,Egyptian and North African,364,,"North African origins, n.i.e.",North African origins,80
+Middle Eastern and North African,Iranian,420,1741,Iranian,West and Central Asian and Middle Eastern origins,88915
+Middle Eastern and North African,Iranian,432,1777,Persian,West and Central Asian and Middle Eastern origins,36450
+Middle Eastern and North African,Iranian,529,,Zoroastrian,Other ethnic and cultural origins,1370
+Middle Eastern and North African,Kurdish,425,1849,Kurdish,West and Central Asian and Middle Eastern origins,6630
+Middle Eastern and North African,Kurdish,528,,Yazidi,Other ethnic and cultural origins,115
+Middle Eastern and North African,Turkish,437,1779,Turkish,West and Central Asian and Middle Eastern origins,28490
+Middle Eastern and North African,Armenian and Caucasian,411,1785,Armenian,West and Central Asian and Middle Eastern origins,21630
+Middle Eastern and North African,Armenian and Caucasian,413,1905,Azerbaijani,West and Central Asian and Middle Eastern origins,4845
+Middle Eastern and North African,Armenian and Caucasian,417,,Georgian,West and Central Asian and Middle Eastern origins,2800
+Middle Eastern and North African,Armenian and Caucasian,415,,Circassian,West and Central Asian and Middle Eastern origins,435
+Middle Eastern and North African,Afghan and Central Asian,410,1770,Afghan,West and Central Asian and Middle Eastern origins,43075
+Middle Eastern and North African,Afghan and Central Asian,431,1907,Pashtun,West and Central Asian and Middle Eastern origins,4470
+Middle Eastern and North African,Afghan and Central Asian,435,1946,Tajik,West and Central Asian and Middle Eastern origins,2895
+Middle Eastern and North African,Afghan and Central Asian,440,,Uzbek,West and Central Asian and Middle Eastern origins,2260
+Middle Eastern and North African,Afghan and Central Asian,436,,Tatar,West and Central Asian and Middle Eastern origins,1890
+Middle Eastern and North African,Afghan and Central Asian,419,,Hazara,West and Central Asian and Middle Eastern origins,1690
+Middle Eastern and North African,Afghan and Central Asian,424,,Kazakh,West and Central Asian and Middle Eastern origins,1625
+Middle Eastern and North African,Afghan and Central Asian,414,,Baloch,West and Central Asian and Middle Eastern origins,710
+Middle Eastern and North African,Afghan and Central Asian,439,,Uyghur,West and Central Asian and Middle Eastern origins,515
+Middle Eastern and North African,Afghan and Central Asian,438,,Turkmen,West and Central Asian and Middle Eastern origins,400
+Middle Eastern and North African,Afghan and Central Asian,427,,Kyrgyz,West and Central Asian and Middle Eastern origins,365
+Middle Eastern and North African,Other Arab and Middle Eastern,511,1733,"Arab, n.o.s.",Other ethnic and cultural origins,51380
+Middle Eastern and North African,Other Arab and Middle Eastern,409,1794,"West or Central Asian or Middle Eastern, n.o.s.",West and Central Asian and Middle Eastern origins,20855
+Middle Eastern and North African,Other Arab and Middle Eastern,442,,"West and Central Asian and Middle Eastern origins, n.i.e.",West and Central Asian and Middle Eastern origins,1990
+African and Black Diaspora,Black diaspora,308,1729,"African, n.o.s.",African origins,95125
+African and Black Diaspora,Black diaspora,512,1771,"Black, n.o.s.",Other ethnic and cultural origins,41330
+African and Black Diaspora,Black diaspora,132,1819,African Canadian,Other North American origins,12435
+African and Black Diaspora,Black diaspora,131,1827,African American,Other North American origins,8065
+African and Black Diaspora,Black diaspora,370,1910,"Bantu, n.o.s.",Southern and East African origins,1460
+African and Black Diaspora,Black diaspora,133,1940,African Nova Scotian,Other North American origins,1035
+African and Black Diaspora,Black diaspora,405,,"African origins, n.i.e.",African origins,130
+African and Black Diaspora,Nigerian,343,1784,Nigerian,Central and West African origins,22065
+African and Black Diaspora,Nigerian,351,1808,Yoruba,Central and West African origins,11985
+African and Black Diaspora,Nigerian,335,1859,Igbo,Central and West African origins,4825
+African and Black Diaspora,Nigerian,324,1945,Edo,Central and West African origins,2490
+African and Black Diaspora,Nigerian,325,,Esan,Central and West African origins,665
+African and Black Diaspora,Nigerian,334,,Hausa,Central and West African origins,245
+African and Black Diaspora,Ghanaian,332,1825,Ghanaian,Central and West African origins,15600
+African and Black Diaspora,Ghanaian,311,1927,"Akan, n.o.s.",Central and West African origins,2875
+African and Black Diaspora,Ghanaian,313,,Ashanti,Central and West African origins,2590
+African and Black Diaspora,Ghanaian,326,,Ewe,Central and West African origins,560
+African and Black Diaspora,Ghanaian,327,,Fante,Central and West African origins,560
+African and Black Diaspora,Ghanaian,329,,Ga-Adangbe,Central and West African origins,420
+African and Black Diaspora,Other West and Central African,323,1803,Congolese,Central and West African origins,4345
+African and Black Diaspora,Other West and Central African,352,,"Central and West African origins, n.i.e.",Central and West African origins,2425
+African and Black Diaspora,Other West and Central African,310,1928,"Central or West African, n.o.s.",Central and West African origins,2345
+African and Black Diaspora,Other West and Central African,319,1837,Cameroonian,Central and West African origins,1825
+African and Black Diaspora,Other West and Central African,312,,Angolan,Central and West African origins,1005
+African and Black Diaspora,Other West and Central African,336,1879,Ivorian,Central and West African origins,970
+African and Black Diaspora,Other West and Central African,317,1936,Beninese,Central and West African origins,805
+African and Black Diaspora,Other West and Central African,328,1930,Fulani,Central and West African origins,620
+African and Black Diaspora,Other West and Central African,347,,Sierra Leonean,Central and West African origins,620
+African and Black Diaspora,Other West and Central African,331,,Gambian,Central and West African origins,565
+African and Black Diaspora,Other West and Central African,315,1917,Bamileke,Central and West African origins,450
+African and Black Diaspora,Other West and Central African,333,1932,Guinean,Central and West African origins,440
+African and Black Diaspora,Other West and Central African,339,,Malian,Central and West African origins,430
+African and Black Diaspora,Other West and Central African,345,1904,Senegalese,Central and West African origins,425
+African and Black Diaspora,Other West and Central African,321,1923,Central African,Central and West African origins,415
+African and Black Diaspora,Other West and Central African,338,,Luba,Central and West African origins,410
+African and Black Diaspora,Other West and Central African,349,,Togolese,Central and West African origins,330
+African and Black Diaspora,Other West and Central African,337,,Liberian,Central and West African origins,255
+African and Black Diaspora,Other West and Central African,340,,Malinké,Central and West African origins,235
+African and Black Diaspora,Other West and Central African,322,,Chadian,Central and West African origins,215
+African and Black Diaspora,Other West and Central African,350,,Wolof,Central and West African origins,210
+African and Black Diaspora,Other West and Central African,320,,Cape Verdean,Central and West African origins,205
+African and Black Diaspora,Other West and Central African,318,,Burkinabe,Central and West African origins,120
+African and Black Diaspora,Other West and Central African,341,,Mauritanian,Central and West African origins,120
+African and Black Diaspora,Other West and Central African,314,,Bambara,Central and West African origins,115
+African and Black Diaspora,Other West and Central African,344,,Nigerien,Central and West African origins,110
+African and Black Diaspora,Other West and Central African,342,,Mossi,Central and West African origins,90
+African and Black Diaspora,Other West and Central African,316,,Baoulé,Central and West African origins,70
+African and Black Diaspora,Other West and Central African,348,,Soninke,Central and West African origins,55
+African and Black Diaspora,Other West and Central African,330,,Gabonese,Central and West African origins,35
+African and Black Diaspora,Other West and Central African,346,,Serer,Central and West African origins,10
+African and Black Diaspora,Horn of Africa,392,1788,Somali,Southern and East African origins,24760
+African and Black Diaspora,Horn of Africa,374,1805,Ethiopian,Southern and East African origins,13515
+African and Black Diaspora,Horn of Africa,373,1818,Eritrean,Southern and East African origins,9380
+African and Black Diaspora,Horn of Africa,397,1883,Tigrinya,Southern and East African origins,2570
+African and Black Diaspora,Horn of Africa,369,1947,Amhara,Southern and East African origins,2165
+African and Black Diaspora,Horn of Africa,387,1920,Oromo,Southern and East African origins,2000
+African and Black Diaspora,Horn of Africa,375,,Harari,Southern and East African origins,840
+African and Black Diaspora,Horn of Africa,372,,Djiboutian,Southern and East African origins,275
+African and Black Diaspora,Horn of Africa,367,,Afar,Southern and East African origins,185
+African and Black Diaspora,East African,366,1878,"Southern or East African, n.o.s.",Southern and East African origins,6635
+African and Black Diaspora,East African,377,1886,Kenyan,Southern and East African origins,4540
+African and Black Diaspora,East African,382,1885,Mauritian,Southern and East African origins,3740
+African and Black Diaspora,East African,396,1921,Tanzanian,Southern and East African origins,3620
+African and Black Diaspora,East African,400,1919,Ugandan,Southern and East African origins,3135
+African and Black Diaspora,East African,404,,"Southern and East African origins, n.i.e.",Southern and East African origins,2480
+African and Black Diaspora,East African,389,1892,Rwandan,Southern and East African origins,880
+African and Black Diaspora,East African,371,1882,Burundian,Southern and East African origins,610
+African and Black Diaspora,East African,378,,Kikuyu,Southern and East African origins,600
+African and Black Diaspora,East African,395,,Swahili,Southern and East African origins,400
+African and Black Diaspora,East African,399,,Tutsi,Southern and East African origins,350
+African and Black Diaspora,East African,394,,South Sudanese,Southern and East African origins,245
+African and Black Diaspora,East African,379,,Luo,Southern and East African origins,235
+African and Black Diaspora,East African,380,1941,Malagasy,Southern and East African origins,210
+African and Black Diaspora,East African,390,,Seychellois,Southern and East African origins,150
+African and Black Diaspora,East African,376,,Hutu,Southern and East African origins,85
+African and Black Diaspora,East African,388,,Réunionnais,Southern and East African origins,45
+African and Black Diaspora,East African,357,,Dinka,North African origins,35
+African and Black Diaspora,Southern African,393,1799,South African,Southern and East African origins,11760
+African and Black Diaspora,Southern African,402,1912,Zimbabwean,Southern and East African origins,1640
+African and Black Diaspora,Southern African,368,,Afrikaner,Southern and East African origins,625
+African and Black Diaspora,Southern African,391,,Shona,Southern and East African origins,375
+African and Black Diaspora,Southern African,401,,Zambian,Southern and East African origins,375
+African and Black Diaspora,Southern African,398,,Tswana (Batswana),Southern and East African origins,370
+African and Black Diaspora,Southern African,403,,Zulu,Southern and East African origins,210
+African and Black Diaspora,Southern African,385,,Ndebele,Southern and East African origins,195
+African and Black Diaspora,Southern African,381,,Malawian,Southern and East African origins,170
+African and Black Diaspora,Southern African,383,,Mozambican,Southern and East African origins,145
+African and Black Diaspora,Southern African,384,,Namibian,Southern and East African origins,95
+Caribbean,Jamaican,265,1735,Jamaican,Caribbean origins,140870
+Caribbean,Jamaican,267,,Maroon,Caribbean origins,905
+Caribbean,Trinidadian and Tobagonian,272,1778,Trinidadian/Tobagonian,Caribbean origins,41110
+Caribbean,Guyanese and Indo-Caribbean,288,1769,Guyanese,"Latin, Central and South American origins",65305
+Caribbean,Guyanese and Indo-Caribbean,264,1901,Indo-Caribbean,Caribbean origins,7010
+Caribbean,Guyanese and Indo-Caribbean,292,1918,Indo-Guyanese,"Latin, Central and South American origins",6320
+Caribbean,Guyanese and Indo-Caribbean,278,,Arawak,"Latin, Central and South American origins",1260
+Caribbean,Guyanese and Indo-Caribbean,303,,Surinamese,"Latin, Central and South American origins",345
+Caribbean,Other Caribbean,274,1797,"West Indian, n.o.s.",Caribbean origins,33275
+Caribbean,Other Caribbean,251,1792,African Caribbean,Caribbean origins,32995
+Caribbean,Other Caribbean,250,1795,"Caribbean, n.o.s.",Caribbean origins,29100
+Caribbean,Other Caribbean,255,1826,Barbadian,Caribbean origins,13070
+Caribbean,Other Caribbean,261,1893,Grenadian,Caribbean origins,8065
+Caribbean,Other Caribbean,273,1888,Vincentian,Caribbean origins,7015
+Caribbean,Other Caribbean,271,1933,St. Lucian,Caribbean origins,3815
+Caribbean,Other Caribbean,257,,Carib,Caribbean origins,2585
+Caribbean,Other Caribbean,252,,Antiguan,Caribbean origins,1905
+Caribbean,Other Caribbean,266,,Kittitian/Nevisian,Caribbean origins,1515
+Caribbean,Other Caribbean,254,,Bahamian,Caribbean origins,1470
+Caribbean,Other Caribbean,256,,Bermudian,Caribbean origins,910
+Caribbean,Other Caribbean,259,,Dominica Islander,Caribbean origins,845
+Caribbean,Other Caribbean,269,,Montserratian,Caribbean origins,360
+Caribbean,Other Caribbean,275,,"Caribbean origins, n.i.e.",Caribbean origins,355
+Caribbean,Other Caribbean,253,,Aruban,Caribbean origins,335
+Caribbean,Haitian and Francophone Caribbean,263,1748,Haitian,Caribbean origins,4330
+Caribbean,Haitian and Francophone Caribbean,268,,Martinican,Caribbean origins,145
+Caribbean,Haitian and Francophone Caribbean,262,,Guadeloupean,Caribbean origins,115
+Latin American,Hispanic Caribbean,258,1831,Cuban,Caribbean origins,8495
+Latin American,Hispanic Caribbean,260,1855,Dominican,Caribbean origins,5335
+Latin American,Hispanic Caribbean,270,,Puerto Rican,Caribbean origins,855
+Latin American,Mexican,295,1750,Mexican,"Latin, Central and South American origins",24165
+Latin American,Central American,302,1791,Salvadorean,"Latin, Central and South American origins",12075
+Latin American,Central American,287,1838,Guatemalan,"Latin, Central and South American origins",5225
+Latin American,Central American,296,1884,Nicaraguan,"Latin, Central and South American origins",3440
+Latin American,Central American,294,1897,Mayan,"Latin, Central and South American origins",1885
+Latin American,Central American,290,1898,Honduran,"Latin, Central and South American origins",1740
+Latin American,Central American,285,1939,Costa Rican,"Latin, Central and South American origins",1535
+Latin American,Central American,297,,Panamanian,"Latin, Central and South American origins",1465
+Latin American,Central American,280,,Belizean,"Latin, Central and South American origins",315
+Latin American,Central American,300,,Pipil,"Latin, Central and South American origins",195
+Latin American,Andean and Northern South American,284,1765,Colombian,"Latin, Central and South American origins",20975
+Latin American,Andean and Northern South American,286,1845,Ecuadorian,"Latin, Central and South American origins",15755
+Latin American,Andean and Northern South American,299,1807,Peruvian,"Latin, Central and South American origins",10695
+Latin American,Andean and Northern South American,305,1833,Venezuelan,"Latin, Central and South American origins",8160
+Latin American,Andean and Northern South American,281,,Bolivian,"Latin, Central and South American origins",1185
+Latin American,Andean and Northern South American,301,,Quechua,"Latin, Central and South American origins",340
+Latin American,Southern Cone,283,1802,Chilean,"Latin, Central and South American origins",9365
+Latin American,Southern Cone,279,1847,Argentinian,"Latin, Central and South American origins",8140
+Latin American,Southern Cone,304,1926,Uruguayan,"Latin, Central and South American origins",3450
+Latin American,Southern Cone,298,1948,Paraguayan,"Latin, Central and South American origins",345
+Latin American,Southern Cone,293,,Mapuche,"Latin, Central and South American origins",330
+Latin American,Brazilian,282,1783,Brazilian,"Latin, Central and South American origins",21755
+Latin American,Other Latin American,277,1762,"Latin, Central or South American, n.o.s.","Latin, Central and South American origins",30495
+Latin American,Other Latin American,291,,"Indigenous origins from Latin, Central and South America, n.i.e.","Latin, Central and South American origins",15030
+Latin American,Other Latin American,289,1806,"Hispanic, n.o.s.","Latin, Central and South American origins",14210
+Latin American,Other Latin American,306,,"Latin, Central and South American origins, n.i.e.","Latin, Central and South American origins",20
+East Asian,Chinese,471,1705,Chinese,East and Southeast Asian origins,668700
+East Asian,Hong Konger,474,1775,Hong Konger,East and Southeast Asian origins,37570
+East Asian,Taiwanese,487,1789,Taiwanese,East and Southeast Asian origins,14155
+East Asian,Korean,481,1738,Korean,East and Southeast Asian origins,74975
+East Asian,Japanese,478,1756,Japanese,East and Southeast Asian origins,27255
+East Asian,Other East Asian,466,1793,"East or Southeast Asian, n.o.s.",East and Southeast Asian origins,26205
+East Asian,Other East Asian,485,1914,Mongolian,East and Southeast Asian origins,2120
+East Asian,Other East Asian,491,,"East and Southeast Asian origins, n.i.e.",East and Southeast Asian origins,450
+Southeast Asian,Filipino,472,1713,Filipino,East and Southeast Asian origins,272475
+Southeast Asian,Filipino,476,1841,Ilocano,East and Southeast Asian origins,8605
+Southeast Asian,Filipino,475,1929,Igorot,East and Southeast Asian origins,1440
+Southeast Asian,Vietnamese,490,1732,Vietnamese,East and Southeast Asian origins,82225
+Southeast Asian,Other Mainland Southeast Asian,469,1809,Cambodian (Khmer),East and Southeast Asian origins,6225
+Southeast Asian,Other Mainland Southeast Asian,482,1840,Laotian,East and Southeast Asian origins,4810
+Southeast Asian,Other Mainland Southeast Asian,488,1854,Thai,East and Southeast Asian origins,3700
+Southeast Asian,Other Mainland Southeast Asian,468,1913,Burmese,East and Southeast Asian origins,2165
+Southeast Asian,Other Mainland Southeast Asian,480,1944,Karen,East and Southeast Asian origins,310
+Southeast Asian,Other Mainland Southeast Asian,470,,Chin,East and Southeast Asian origins,295
+Southeast Asian,Other Mainland Southeast Asian,473,,Hmong,East and Southeast Asian origins,75
+Southeast Asian,Maritime Southeast Asian,477,1839,Indonesian,East and Southeast Asian origins,6415
+Southeast Asian,Maritime Southeast Asian,484,1870,Malaysian,East and Southeast Asian origins,5150
+Southeast Asian,Maritime Southeast Asian,483,1908,Malay,East and Southeast Asian origins,3060
+Southeast Asian,Maritime Southeast Asian,486,1943,Singaporean,East and Southeast Asian origins,1685
+Southeast Asian,Maritime Southeast Asian,479,,Javanese,East and Southeast Asian origins,300
+Southeast Asian,Maritime Southeast Asian,467,,Bruneian,East and Southeast Asian origins,55
+South Asian,Indian,451,1707,Indian (India),South Asian origins,578095
+South Asian,Indian,445,,Anglo-Indian,South Asian origins,1780
+South Asian,Punjabi and Sikh,458,1731,Punjabi,South Asian origins,95820
+South Asian,Punjabi and Sikh,527,1745,Sikh,Other ethnic and cultural origins,63980
+South Asian,Punjabi and Sikh,452,1851,Jatt,South Asian origins,7410
+South Asian,Gujarati and Western Indian,450,1817,Gujarati,South Asian origins,19345
+South Asian,Gujarati and Western Indian,449,1909,Goan,South Asian origins,6750
+South Asian,Gujarati and Western Indian,454,,Maharashtrian,South Asian origins,2330
+South Asian,South Indian,455,1894,Malayali,South Asian origins,5185
+South Asian,South Indian,463,1937,Telugu,South Asian origins,3810
+South Asian,Pakistani,457,1728,Pakistani,South Asian origins,162710
+South Asian,Pakistani,453,1942,Kashmiri,South Asian origins,2985
+South Asian,Pakistani,459,,Sindhi,South Asian origins,2130
+South Asian,Sri Lankan and Tamil,461,1754,Sri Lankan,South Asian origins,91525
+South Asian,Sri Lankan and Tamil,462,1763,Tamil,South Asian origins,76250
+South Asian,Sri Lankan and Tamil,460,1896,Sinhalese,South Asian origins,5935
+South Asian,Bangladeshi and Bengali,446,1781,Bangladeshi,South Asian origins,36670
+South Asian,Bangladeshi and Bengali,447,1836,Bengali,South Asian origins,13070
+South Asian,Himalayan,489,1911,Tibetan,East and Southeast Asian origins,6905
+South Asian,Himalayan,456,1856,Nepali,South Asian origins,6870
+South Asian,Himalayan,448,,Bhutanese,South Asian origins,160
+South Asian,Other South Asian,521,1749,Hindu,Other ethnic and cultural origins,84055
+South Asian,Other South Asian,444,1757,"South Asian, n.o.s.",South Asian origins,67855
+South Asian,Other South Asian,464,,"South Asian origins, n.i.e.",South Asian origins,4900
+Oceanian,Australian and New Zealander,505,1800,Australian,Other Oceanian origins,5935
+Oceanian,Australian and New Zealander,507,1866,New Zealander,Other Oceanian origins,1985
+Oceanian,Australian and New Zealander,508,,"Other Oceanian origins, n.i.e.",Other Oceanian origins,110
+Oceanian,Australian and New Zealander,494,,"Oceanian, n.o.s.",Oceanian origins,20
+Oceanian,Pacific Islander,497,1850,Fijian,Pacific Islands origins,1665
+Oceanian,Pacific Islander,496,,"Pacific Islander, n.o.s.",Pacific Islands origins,1595
+Oceanian,Pacific Islander,499,,Indo-Fijian,Pacific Islands origins,415
+Oceanian,Pacific Islander,500,,"Polynesian, n.o.s.",Pacific Islands origins,385
+Oceanian,Pacific Islander,506,,Maori,Other Oceanian origins,185
+Oceanian,Pacific Islander,503,,"Pacific Islands origins, n.i.e.",Pacific Islands origins,165
+Oceanian,Pacific Islander,498,,Hawaiian,Pacific Islands origins,155
+Oceanian,Pacific Islander,501,,Samoan,Pacific Islands origins,110
+Oceanian,Pacific Islander,502,,Tongan,Pacific Islands origins,65
+Jewish,Jewish and Israeli,524,1730,Jewish,Other ethnic and cultural origins,119435
+Jewish,Jewish and Israeli,422,1820,Israeli,West and Central Asian and Middle Eastern origins,16895
+Other,Other,407,1736,"Asian, n.o.s.",Asian origins,85770
+Other,Other,3,1852,"North American, n.o.s.",North American origins,2275
+Other,Other,530,,"Other ethnic and cultural origins, n.i.e.",Other ethnic and cultural origins,1930
+Other,Other,518,,"Creole, n.o.s.",Other ethnic and cultural origins,545
+Other,Other,520,,"Eurasian, n.o.s.",Other ethnic and cultural origins,460
+Other,Other,492,,"Asian origins, n.i.e.",Asian origins,145

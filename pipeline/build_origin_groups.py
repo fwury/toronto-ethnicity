@@ -16,6 +16,16 @@ ref = list(csv.DictReader(open(ROOT / "data/reference/statcan_ethnic_origins_202
 by_id = {int(r["member_id"]): r for r in ref}
 leaves = {i for i, r in by_id.items() if r["is_leaf"] == "1"}
 
+# Census Profile (DA level) characteristic IDs, matched by name. The DA profile
+# only publishes ~250 of the origins; the rest have no DA-level data.
+chars = list(csv.DictReader(open(ROOT / "data/raw/characteristics.csv", encoding="cp1252")))
+start = next(i for i, c in enumerate(chars) if c["characteristic_name"].startswith("Total - Ethnic or cultural origin"))
+end = next(i for i in range(start + 1, len(chars)) if chars[i]["characteristic_name"].startswith("Total - "))
+da_code = {c["characteristic_name"].strip(): int(c["characteristic_id"]) for c in chars[start + 1:end]}
+unmatched = set(da_code) - {r["origin"] for r in ref}
+if unmatched:
+    sys.exit(f"DA profile origins with no match in the reference list: {sorted(unmatched)}")
+
 assigned = Counter(i for v in [*GROUPS.values(), EXCLUDED] for i in v)
 errors = []
 errors += [f"assigned twice: {i} {by_id[i]['origin']}" for i, n in assigned.items() if n > 1]
@@ -29,7 +39,8 @@ rows = []
 for (broad, sub), members in GROUPS.items():
     for i in members:
         r = by_id[i]
-        rows.append(dict(broad=broad, sub=sub, member_id=i, origin=r["origin"],
+        rows.append(dict(broad=broad, sub=sub, member_id=i, da_profile_id=da_code.get(r["origin"], ""),
+                         origin=r["origin"],
                          statcan_group=r["parent_origin"],
                          toronto_cma_responses=int(r["toronto_cma_total_responses"])))
 rows.sort(key=lambda r: (BROAD_ORDER.index(r["broad"]), list(GROUPS).index((r["broad"], r["sub"])),
@@ -45,6 +56,8 @@ md = ["# Ethnic origin grouping (2021 Census, Toronto CMA)", "",
       "Codes are Statistics Canada member IDs from table 98-10-0356-01. Counts are total "
       "responses in the Toronto CMA (single + multiple), so group totals count a person "
       "once per origin they reported. Origins with 0 responses in Toronto are still listed.", "",
+      "**DA code** is the Census Profile CHARACTERISTIC_ID used for the map. A dash means the "
+      "origin is not published at DA level (about 1.2% of Toronto CMA responses), so it cannot be mapped.", "",
       "Excluded (religious responses): " + ", ".join(f"{by_id[i]['origin']} ({i})" for i in EXCLUDED), ""]
 for broad in BROAD_ORDER:
     b_rows = [r for r in rows if r["broad"] == broad]
@@ -54,8 +67,8 @@ for broad in BROAD_ORDER:
             continue
         s_rows = [r for r in b_rows if r["sub"] == sub]
         md += [f"### {sub} — {fmt(sum(r['toronto_cma_responses'] for r in s_rows))}", "",
-               "| Code | Origin | Responses |", "|---:|---|---:|"]
-        md += [f"| {r['member_id']} | {r['origin']} | {fmt(r['toronto_cma_responses'])} |" for r in s_rows]
+               "| Code | DA code | Origin | Responses |", "|---:|---:|---|---:|"]
+        md += [f"| {r['member_id']} | {r['da_profile_id'] or '–'} | {r['origin']} | {fmt(r['toronto_cma_responses'])} |" for r in s_rows]
         md.append("")
 (ROOT / "docs").mkdir(exist_ok=True)
 (ROOT / "docs/origin-groups.md").write_text("\n".join(md))
