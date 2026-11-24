@@ -73,11 +73,10 @@ GROUPS = {
     ("Middle Eastern and North African", "Iranian"): ids(420, 432, 529),  # + Persian, Zoroastrian
     ("Middle Eastern and North African", "Kurdish"): ids(425, 528),  # + Yazidi
     ("Middle Eastern and North African", "Turkish"): ids(437),
-    ("Middle Eastern and North African", "Armenian and Caucasus"): ids(411, 413, 415, 417),
+    ("Middle Eastern and North African", "Armenian and Caucasian"): ids(411, 413, 415, 417),
     ("Middle Eastern and North African", "Afghan and Central Asian"): ids(
         410, 419, 431, 414, 424, 427, 435, 436, 438, 439, 440,
     ),
-    ("Middle Eastern and North African", "Jewish and Israeli"): ids(524, 422),
     ("Middle Eastern and North African", "Other Arab and Middle Eastern"): ids(511, 409, 442),
 
     # ---------------------------------------------------- AFRICAN & BLACK DIASPORA
@@ -145,14 +144,21 @@ GROUPS = {
     ("Oceanian", "Australian and New Zealander"): ids(505, 507, 508, 494),
     ("Oceanian", "Pacific Islander"): ids((496, 503), 506),  # + Maori; incl. Indo-Fijian
 
+    # -------------------------------------------------------------------- JEWISH
+    ("Jewish", "Jewish and Israeli"): ids(524, 422),
+
     # --------------------------------------------------------------------- OTHER
-    ("Other", "Asian, n.o.s."): ids(407, 492),
-    ("Other", "Religious responses"): ids(516, 526, 513),  # Christian, Muslim, Buddhist
-    ("Other", "Other and unspecified"): ids(3, 518, 520, 530),  # N. American n.o.s., Creole, Eurasian, n.i.e.
+    ("Other", "Other"): ids(
+        407, 492,  # Asian n.o.s. & n.i.e.
+        3, 518, 520, 530,  # North American n.o.s., Creole, Eurasian, Other n.i.e.
+    ),
 }
+
+# Leaf origins deliberately left off the map: purely religious responses.
+EXCLUDED = ids(516, 526, 513)  # Christian n.i.e., Muslim, Buddhist
 
 BROAD_ORDER = [
     "Indigenous North American", "Non-Indigenous North American", "European",
     "Middle Eastern and North African", "African and Black Diaspora", "Caribbean",
-    "Latin American", "East Asian", "Southeast Asian", "South Asian", "Oceanian", "Other",
+    "Latin American", "East Asian", "Southeast Asian", "South Asian", "Oceanian", "Jewish", "Other",
 ]

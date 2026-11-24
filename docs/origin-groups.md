@@ -2,6 +2,8 @@
 
 Codes are Statistics Canada member IDs from table 98-10-0356-01. Counts are total responses in the Toronto CMA (single + multiple), so group totals count a person once per origin they reported. Origins with 0 responses in Toronto are still listed.
 
+Excluded (religious responses): Christian, n.i.e. (516), Muslim (526), Buddhist (513)
+
 ## Indigenous North American — 63,770 responses
 
 ### First Nations — 47,055
@@ -337,7 +339,7 @@ Codes are Statistics Canada member IDs from table 98-10-0356-01. Counts are tota
 | 248 | Other European origins, n.i.e. | 485 |
 | 209 | Southern European origins, n.i.e. | 105 |
 
-## Middle Eastern and North African — 635,065 responses
+## Middle Eastern and North African — 498,735 responses
 
 ### Levantine Arab — 64,280
 
@@ -398,7 +400,7 @@ Codes are Statistics Canada member IDs from table 98-10-0356-01. Counts are tota
 |---:|---|---:|
 | 437 | Turkish | 28,490 |
 
-### Armenian and Caucasus — 29,710
+### Armenian and Caucasian — 29,710
 
 | Code | Origin | Responses |
 |---:|---|---:|
@@ -422,13 +424,6 @@ Codes are Statistics Canada member IDs from table 98-10-0356-01. Counts are tota
 | 439 | Uyghur | 515 |
 | 438 | Turkmen | 400 |
 | 427 | Kyrgyz | 365 |
-
-### Jewish and Israeli — 136,330
-
-| Code | Origin | Responses |
-|---:|---|---:|
-| 524 | Jewish | 119,435 |
-| 422 | Israeli | 16,895 |
 
 ### Other Arab and Middle Eastern — 74,225
 
@@ -858,28 +853,24 @@ Codes are Statistics Canada member IDs from table 98-10-0356-01. Counts are tota
 | 501 | Samoan | 110 |
 | 502 | Tongan | 65 |
 
-## Other — 176,390 responses
+## Jewish — 136,330 responses
 
-### Asian, n.o.s. — 85,915
+### Jewish and Israeli — 136,330
+
+| Code | Origin | Responses |
+|---:|---|---:|
+| 524 | Jewish | 119,435 |
+| 422 | Israeli | 16,895 |
+
+## Other — 91,125 responses
+
+### Other — 91,125
 
 | Code | Origin | Responses |
 |---:|---|---:|
 | 407 | Asian, n.o.s. | 85,770 |
-| 492 | Asian origins, n.i.e. | 145 |
-
-### Religious responses — 85,265
-
-| Code | Origin | Responses |
-|---:|---|---:|
-| 526 | Muslim | 42,535 |
-| 516 | Christian, n.i.e. | 36,545 |
-| 513 | Buddhist | 6,185 |
-
-### Other and unspecified — 5,210
-
-| Code | Origin | Responses |
-|---:|---|---:|
 | 3 | North American, n.o.s. | 2,275 |
 | 530 | Other ethnic and cultural origins, n.i.e. | 1,930 |
 | 518 | Creole, n.o.s. | 545 |
 | 520 | Eurasian, n.o.s. | 460 |
+| 492 | Asian origins, n.i.e. | 145 |

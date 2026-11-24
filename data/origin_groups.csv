@@ -252,10 +252,10 @@ Middle Eastern and North African,Iranian,529,Zoroastrian,Other ethnic and cultur
 Middle Eastern and North African,Kurdish,425,Kurdish,West and Central Asian and Middle Eastern origins,6630
 Middle Eastern and North African,Kurdish,528,Yazidi,Other ethnic and cultural origins,115
 Middle Eastern and North African,Turkish,437,Turkish,West and Central Asian and Middle Eastern origins,28490
-Middle Eastern and North African,Armenian and Caucasus,411,Armenian,West and Central Asian and Middle Eastern origins,21630
-Middle Eastern and North African,Armenian and Caucasus,413,Azerbaijani,West and Central Asian and Middle Eastern origins,4845
-Middle Eastern and North African,Armenian and Caucasus,417,Georgian,West and Central Asian and Middle Eastern origins,2800
-Middle Eastern and North African,Armenian and Caucasus,415,Circassian,West and Central Asian and Middle Eastern origins,435
+Middle Eastern and North African,Armenian and Caucasian,411,Armenian,West and Central Asian and Middle Eastern origins,21630
+Middle Eastern and North African,Armenian and Caucasian,413,Azerbaijani,West and Central Asian and Middle Eastern origins,4845
+Middle Eastern and North African,Armenian and Caucasian,417,Georgian,West and Central Asian and Middle Eastern origins,2800
+Middle Eastern and North African,Armenian and Caucasian,415,Circassian,West and Central Asian and Middle Eastern origins,435
 Middle Eastern and North African,Afghan and Central Asian,410,Afghan,West and Central Asian and Middle Eastern origins,43075
 Middle Eastern and North African,Afghan and Central Asian,431,Pashtun,West and Central Asian and Middle Eastern origins,4470
 Middle Eastern and North African,Afghan and Central Asian,435,Tajik,West and Central Asian and Middle Eastern origins,2895
@@ -267,8 +267,6 @@ Middle Eastern and North African,Afghan and Central Asian,414,Baloch,West and Ce
 Middle Eastern and North African,Afghan and Central Asian,439,Uyghur,West and Central Asian and Middle Eastern origins,515
 Middle Eastern and North African,Afghan and Central Asian,438,Turkmen,West and Central Asian and Middle Eastern origins,400
 Middle Eastern and North African,Afghan and Central Asian,427,Kyrgyz,West and Central Asian and Middle Eastern origins,365
-Middle Eastern and North African,Jewish and Israeli,524,Jewish,Other ethnic and cultural origins,119435
-Middle Eastern and North African,Jewish and Israeli,422,Israeli,West and Central Asian and Middle Eastern origins,16895
 Middle Eastern and North African,Other Arab and Middle Eastern,511,"Arab, n.o.s.",Other ethnic and cultural origins,51380
 Middle Eastern and North African,Other Arab and Middle Eastern,409,"West or Central Asian or Middle Eastern, n.o.s.",West and Central Asian and Middle Eastern origins,20855
 Middle Eastern and North African,Other Arab and Middle Eastern,442,"West and Central Asian and Middle Eastern origins, n.i.e.",West and Central Asian and Middle Eastern origins,1990
@@ -478,12 +476,11 @@ Oceanian,Pacific Islander,503,"Pacific Islands origins, n.i.e.",Pacific Islands 
 Oceanian,Pacific Islander,498,Hawaiian,Pacific Islands origins,155
 Oceanian,Pacific Islander,501,Samoan,Pacific Islands origins,110
 Oceanian,Pacific Islander,502,Tongan,Pacific Islands origins,65
-Other,"Asian, n.o.s.",407,"Asian, n.o.s.",Asian origins,85770
-Other,"Asian, n.o.s.",492,"Asian origins, n.i.e.",Asian origins,145
-Other,Religious responses,526,Muslim,Other ethnic and cultural origins,42535
-Other,Religious responses,516,"Christian, n.i.e.",Other ethnic and cultural origins,36545
-Other,Religious responses,513,Buddhist,Other ethnic and cultural origins,6185
-Other,Other and unspecified,3,"North American, n.o.s.",North American origins,2275
-Other,Other and unspecified,530,"Other ethnic and cultural origins, n.i.e.",Other ethnic and cultural origins,1930
-Other,Other and unspecified,518,"Creole, n.o.s.",Other ethnic and cultural origins,545
-Other,Other and unspecified,520,"Eurasian, n.o.s.",Other ethnic and cultural origins,460
+Jewish,Jewish and Israeli,524,Jewish,Other ethnic and cultural origins,119435
+Jewish,Jewish and Israeli,422,Israeli,West and Central Asian and Middle Eastern origins,16895
+Other,Other,407,"Asian, n.o.s.",Asian origins,85770
+Other,Other,3,"North American, n.o.s.",North American origins,2275
+Other,Other,530,"Other ethnic and cultural origins, n.i.e.",Other ethnic and cultural origins,1930
+Other,Other,518,"Creole, n.o.s.",Other ethnic and cultural origins,545
+Other,Other,520,"Eurasian, n.o.s.",Other ethnic and cultural origins,460
+Other,Other,492,"Asian origins, n.i.e.",Asian origins,145
