@@ -218,7 +218,7 @@ def extract_gaf(path):
 
 def find(patterns):
     for p in patterns:
-        hits = sorted(glob.glob(p))
+        hits = sorted(glob.glob(p, recursive=True))
         if hits:
             return hits[0]
     return None
@@ -233,10 +233,13 @@ def main():
     a = ap.parse_args()
     os.makedirs(OUT, exist_ok=True)
 
-    profile = a.profile or find(["98-401-X2021006*Ontario*.csv", "98-401-X2021006*.csv"])
-    da_shp = a.da_shp or find(["lda_000?21a_e.shp", "**/lda_000?21a_e.shp"])
-    db_shp = a.db_shp or find(["ldb_000?21a_e.shp", "**/ldb_000?21a_e.shp"])
-    gaf = a.gaf or find(["2021_92-151_X.csv", "**/2021_92-151_X.csv"])
+    if any([a.profile, a.da_shp, a.db_shp, a.gaf]):  # explicit paths: do only those
+        profile, da_shp, db_shp, gaf = a.profile, a.da_shp, a.db_shp, a.gaf
+    else:
+        profile = find(["98-401-X2021006*Ontario*.csv", "98-401-X2021006*.csv"])
+        da_shp = find(["lda_000?21a_e.shp", "**/lda_000?21a_e.shp"])
+        db_shp = find(["ldb_000?21a_e.shp", "**/ldb_000?21a_e.shp"])
+        gaf = find(["2021_92-151_X.csv", "**/2021_92-151_X.csv"])
     log(f"Found: profile={profile}\n       DA boundaries={da_shp}\n       DB boundaries={db_shp}\n       GAF={gaf}")
     if not any([profile, da_shp, db_shp, gaf]):
         sys.exit("Nothing to do: run this in the folder with the (unzipped) downloads.")
