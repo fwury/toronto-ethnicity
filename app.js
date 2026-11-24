@@ -3,28 +3,13 @@
   "use strict";
 
   // ------------------------------------------------------------------ basemaps
-  const ESRI = "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}";
-  const CARTO_LABELS = (v) => ["a", "b", "c", "d"].map((s) => `https://${s}.basemaps.cartocdn.com/${v}/{z}/{x}/{y}@2x.png`);
   const BASEMAPS = [
     { id: "paper", name: "Paper", style: "styles/paper.json", swatch: "linear-gradient(135deg,#f4f0e6 60%,#cbd8da 60%)" },
     { id: "positron", name: "Positron", style: "https://tiles.openfreemap.org/styles/positron", swatch: "linear-gradient(135deg,#fafaf8 60%,#d4dadc 60%)" },
     { id: "liberty", name: "Liberty", style: "https://tiles.openfreemap.org/styles/liberty", swatch: "linear-gradient(135deg,#f0ede4 45%,#c8e2c0 45% 70%,#a0c8f0 70%)" },
     { id: "voyager", name: "Voyager", style: "https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json", swatch: "linear-gradient(135deg,#f5f3ef 55%,#f2d6a6 55% 70%,#d5e8eb 70%)" },
     { id: "dark", name: "Dark", dark: true, style: "https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json", swatch: "linear-gradient(135deg,#1b1d22 60%,#0e0f12 60%)" },
-    {
-      id: "satellite", name: "Satellite", dark: true, swatch: "linear-gradient(135deg,#3d4a37,#6b6f5c 50%,#2a3640)",
-      style: {
-        version: 8,
-        sources: {
-          esri: { type: "raster", tiles: [ESRI], tileSize: 256, maxzoom: 19, attribution: "Imagery © Esri, Maxar, Earthstar Geographics" },
-          labels: { type: "raster", tiles: CARTO_LABELS("dark_only_labels"), tileSize: 256, attribution: "Labels © CARTO, © OpenStreetMap contributors" },
-        },
-        layers: [
-          { id: "esri", type: "raster", source: "esri", paint: { "raster-saturation": -0.35, "raster-brightness-max": 0.75 } },
-          { id: "labels", type: "raster", source: "labels" },
-        ],
-      },
-    },
+    { id: "satellite", name: "Satellite", dark: true, style: "styles/satellite.json", swatch: "linear-gradient(135deg,#3d4a37,#6b6f5c 50%,#2a3640)" },
     {
       id: "blank", name: "Blank", swatch: "#f7f4ec",
       style: { version: 8, sources: {}, layers: [{ id: "bg", type: "background", paint: { "background-color": "#f7f4ec" } }] },
@@ -128,6 +113,9 @@
     hash: true,
   });
   map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
+  const padPanel = () => map.setPadding(window.innerWidth >= 720 ? { left: 372, top: 0, right: 0, bottom: 0 } : { left: 0, top: 0, right: 0, bottom: 0 });
+  padPanel();
+  window.addEventListener("resize", padPanel);
   map.addControl(new maplibregl.ScaleControl({ unit: "metric" }), "bottom-right");
 
   function styleFor(id) { return BASEMAPS.find((b) => b.id === id).style; }
@@ -135,12 +123,12 @@
   // Dots go under the first label layer so place names stay readable.
   function labelLayerId() {
     const layers = map.getStyle().layers || [];
-    const sym = layers.find((l) => l.type === "symbol" || l.id === "labels");
+    const sym = layers.find((l) => l.type === "symbol");
     return sym ? sym.id : undefined;
   }
   function applyLabels() {
     for (const l of map.getStyle().layers || []) {
-      if (l.type === "symbol" || l.id === "labels") map.setLayoutProperty(l.id, "visibility", state.labels ? "visible" : "none");
+      if (l.type === "symbol") map.setLayoutProperty(l.id, "visibility", state.labels ? "visible" : "none");
     }
   }
 
@@ -192,7 +180,8 @@
 
   rebuildColors();
   rebuildFilter();
-  map.once("load", () => loading.classList.add("done"));
+  map.once("style.load", () => loading.classList.add("done"));
+  setTimeout(() => loading.classList.add("done"), 8000);
 
   // --------------------------------------------------------------- controls
   const bmWrap = $("#basemaps");
