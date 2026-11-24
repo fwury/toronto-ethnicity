@@ -19,133 +19,130 @@ def ids(*parts):
     return out
 
 
-# (broad, sub) -> list of member IDs
+# (broad, sub) -> list of member IDs. Authoring order does not matter: the
+# subcategories within each broad category are sorted by their mapped
+# (DA-level) response totals, with the "Other ..." catch-alls last. See
+# sub_totals.json, written by build_origin_groups.py.
+_FN_KEEP = (7, 5, 80, 13, 66, 30, 11, 10, 64, 21, 26, 81)
 GROUPS = {
     # ---------------------------------------------------------------- INDIGENOUS
-    ("Indigenous North American", "First Nations"): ids(
-        5,  # North American Indigenous, n.o.s.
-        *[i for i in range(7, 124) if i not in (9, 20, 29, 37, 60, 63, 71, 79, 84, 93, 95, 108, 115)],
-    ),
+    ("Indigenous North American", "First Nations"): ids(*_FN_KEEP),
     ("Indigenous North American", "Métis"): ids(128),
     ("Indigenous North American", "Inuit"): ids(125, 126, 127),
 
     # ---------------------------------------------------- NON-INDIGENOUS N. AMERICAN
     ("Non-Indigenous North American", "Canadian"): ids(
-        137, 134, 136, 138, 142, 143, 144, 145, 146, 148, 150,  # Canadian + provincial
-        151,  # United Empire Loyalist
+        137, 140, 146, 144, 130, 149, 145, 151, 143, 139, 148, 138, 142, 150,
         152,  # Other North American origins, n.i.e.
     ),
-    ("Non-Indigenous North American", "French North American"): ids(140, 149, 130, 139, 141),
     ("Non-Indigenous North American", "American (USA)"): ids(135),
 
     # ------------------------------------------------------------------ EUROPEAN
     ("European", "British and Irish"): ids((156, 167), 245),  # + Celtic, n.o.s.
-    ("European", "French"): ids((169, 174), 522),  # + Huguenot
+    ("European", "Italian"): ids(204, 207),  # + Sicilian
     ("European", "German"): ids(183, 178, 147, 510, 523, 525),  # Bavarian, Pennsylvania Dutch, Amish, Hutterite, Mennonite
-    ("European", "Other Western European"): ids(176, 177, 179, 180, 181, 182, 184, 185, 186, 187),
-    ("European", "Northern European"): ids((189, 196)),
     ("European", "Polish"): ids(238, 235),  # + Kashubian
-    ("European", "Russian"): ids(239, 519),  # + Doukhobor
-    ("European", "Ukrainian"): ids(242, 240),  # + Ruthenian
-    ("European", "Other Eastern European"): ids(
-        228, 229, 230, 231, 232, 233, 234, 236, 237, 241, 243,
-        219, 221, 224,  # Moldovan, Romanian, Transylvanian
-        247,  # Slavic, n.o.s.
-    ),
-    ("European", "Italian"): ids(204, 207),
     ("European", "Portuguese"): ids(206, 199),  # + Azorean
-    ("European", "Spanish"): ids(208, 200, 201, 202),  # + Basque, Catalan, Galician
+    ("European", "French"): ids((169, 174), 522),  # + Huguenot
+    ("European", "Ukrainian"): ids(242, 240),  # + Ruthenian
+    ("European", "Russian"): ids(239, 519),  # + Doukhobor
     ("European", "Greek"): ids(203, 416, 418),  # + Cypriot, Greek Cypriot
-    ("European", "Other Balkan"): ids(211, 212, 213, 214, 215, 216, 217, 218, 220, 222, 223, 225, 226),
+    ("European", "Spanish"): ids(208, 200, 201, 202),  # + Basque, Catalan, Galician
+    ("European", "Northern European"): ids((189, 196)),
+    ("European", "Other Western European"): ids(176, 177, 179, 180, 182, 184, 185, 186, 187),
+    ("European", "Other Eastern European"): ids(
+        234, 221, 216, 222, 228, 237, 231, 241, 247, 230, 236, 233, 219, 232,
+        243, 224, 229,  # n.i.e., Transylvanian, Bohemian
+    ),
+    ("European", "Other Balkan"): ids(218, 212, 223, 215, 214, 225, 220, 226, 217, 213, 211),
     ("European", "Other European"): ids(
         154, 198, 209, 248,  # European / Southern European n.o.s. & n.i.e.
+        514,  # Caucasian (White), n.o.s.
         205,  # Maltese
         246,  # Roma
-        514,  # Caucasian (White), n.o.s.
     ),
 
     # ------------------------------------------------ MIDDLE EASTERN & NORTH AFRICAN
-    ("Middle Eastern and North African", "Levantine Arab"): ids(428, 434, 430, 423),
-    ("Middle Eastern and North African", "Iraqi, Assyrian and Gulf"): ids(421, 412, 515, 426, 429, 433, 441),
-    ("Middle Eastern and North African", "Egyptian and North African"): ids(
-        (354, 356), 358, (359, 364), 517, 386,  # excl. Dinka; + Coptic, Nubian
-    ),
     ("Middle Eastern and North African", "Iranian"): ids(420, 432, 529),  # + Persian, Zoroastrian
-    ("Middle Eastern and North African", "Kurdish"): ids(425, 528),  # + Yazidi
+    ("Middle Eastern and North African", "Levantine Arab"): ids(428, 434, 430, 423),
+    ("Middle Eastern and North African", "Egyptian and Coptic"): ids(358, 517, 386),  # + Nubian
+    ("Middle Eastern and North African", "Iraqi, Assyrian and Gulf"): ids(421, 412, 515, 441, 433, 426, 429),
+    ("Middle Eastern and North African", "Caucasian (Caucasus)"): ids(411, 413, 417, 415),  # Armenian, Azerbaijani, Georgian, Circassian
     ("Middle Eastern and North African", "Turkish"): ids(437),
-    ("Middle Eastern and North African", "Armenian and Caucasian"): ids(411, 413, 415, 417),
     ("Middle Eastern and North African", "Afghan and Central Asian"): ids(
-        410, 419, 431, 414, 424, 427, 435, 436, 438, 439, 440,
+        410, 431, 435, 419, 414, 424, 427, 436, 438, 439, 440,
     ),
-    ("Middle Eastern and North African", "Other Arab and Middle Eastern"): ids(511, 409, 442),
+    ("Middle Eastern and North African", "Other North African"): ids(361, 362, 354, 355, 363, 356, 360, 364),
+    ("Middle Eastern and North African", "Other Arab and Middle Eastern"): ids(
+        511, 409, 442,
+        425, 528,  # Kurdish, Yazidi
+    ),
 
     # ---------------------------------------------------- AFRICAN & BLACK DIASPORA
     ("African and Black Diaspora", "Black diaspora"): ids(
-        131, 132, 133,  # African American, African Canadian, African Nova Scotian
-        308, 405, 512, 370,  # African n.o.s., African n.i.e., Black n.o.s., Bantu n.o.s.
+        308, 512, 132, 131, 370, 133,  # African n.o.s., Black n.o.s., African Canadian/American, Bantu, African Nova Scotian
+        405,  # African n.i.e.
     ),
-    ("African and Black Diaspora", "Nigerian"): ids(343, 351, 335, 324, 325, 334),
-    ("African and Black Diaspora", "Ghanaian"): ids(332, 311, 313, 326, 327, 329),
+    ("African and Black Diaspora", "Nigerian"): ids(343, 351, 335, 324, 325, 334),  # + Yoruba, Igbo, Edo, Esan, Hausa
+    ("African and Black Diaspora", "Somali"): ids(392),
+    ("African and Black Diaspora", "Southern African"): ids(393, 402, 368, 381, 383, 384, 385, 391, 398, 401, 403),
+    ("African and Black Diaspora", "Other East African"): ids(
+        374, 373, 377, 397, 382, 396, 400, 369, 387, 389, 371,
+        366,  # Southern or East African, n.o.s.
+        375, 372, 367, 404, 378, 395, 399, 394, 379, 390, 376, 388, 357,
+    ),
     ("African and Black Diaspora", "Other West and Central African"): ids(
-        *[i for i in range(310, 353) if i not in (343, 351, 335, 324, 325, 334, 332, 311, 313, 326, 327, 329)],
+        332, 311, 313, 326, 327, 329,  # Ghanaian, Akan, Ashanti, Ewe, Fante, Ga-Adangbe
+        *[i for i in range(310, 353) if i not in (343, 351, 335, 324, 325, 334, 332, 311, 313, 326, 327, 329, 315, 333, 321)],
     ),
-    ("African and Black Diaspora", "Horn of Africa"): ids(367, 369, 372, 373, 374, 375, 387, 392, 397),
-    ("African and Black Diaspora", "East African"): ids(
-        366, 371, 376, 377, 378, 379, 389, 394, 395, 396, 399, 400, 357, 404,
-        380, 382, 388, 390,  # Indian Ocean: Malagasy, Mauritian, Réunionnais, Seychellois
-    ),
-    ("African and Black Diaspora", "Southern African"): ids(368, 381, 383, 384, 385, 391, 393, 398, 401, 402, 403),
 
     # ----------------------------------------------------------------- CARIBBEAN
     ("Caribbean", "Jamaican"): ids(265, 267),  # + Maroon
     ("Caribbean", "Trinidadian and Tobagonian"): ids(272),
     ("Caribbean", "Guyanese and Indo-Caribbean"): ids(288, 292, 264, 303, 278),  # + Indo-Guyanese, Indo-Caribbean, Surinamese, Arawak
     ("Caribbean", "Other Caribbean"): ids(
-        250, 251, 274, 275,  # Caribbean n.o.s., African Caribbean, West Indian n.o.s., n.i.e.
-        252, 253, 254, 255, 256, 257, 259, 261, 266, 269, 271, 273,
+        251, 274, 250, 255, 261, 273, 263, 271,
+        275, 252, 253, 254, 256, 257, 259, 266, 269, 262, 268,
     ),
-    ("Caribbean", "Haitian and Francophone Caribbean"): ids(263, 262, 268),
 
     # ------------------------------------------------------------ LATIN AMERICAN
-    ("Latin American", "Hispanic Caribbean"): ids(258, 260, 270),
-    ("Latin American", "Mexican"): ids(295),
-    ("Latin American", "Central American"): ids(280, 285, 287, 290, 294, 296, 297, 300, 302),
-    ("Latin American", "Andean and Northern South American"): ids(281, 284, 286, 299, 301, 305),
-    ("Latin American", "Southern Cone"): ids(279, 283, 293, 298, 304),
     ("Latin American", "Brazilian"): ids(282),
+    ("Latin American", "Mexican"): ids(295),
+    ("Latin American", "Colombian"): ids(284),
+    ("Latin American", "Other South American"): ids(286, 305, 283, 299, 279, 304, 298, 281, 301, 293),
+    ("Latin American", "Central American"): ids(302, 287, 296, 294, 285, 290, 280, 297, 300),
+    ("Latin American", "Hispanic Caribbean"): ids(258, 260, 270),
     ("Latin American", "Other Latin American"): ids(277, 289, 291, 306),
 
     # ---------------------------------------------------------------- EAST ASIAN
-    ("East Asian", "Chinese"): ids(471),
-    ("East Asian", "Hong Konger"): ids(474),
-    ("East Asian", "Taiwanese"): ids(487),
+    ("East Asian", "Chinese"): ids(471, 474, 487),  # + Hong Konger, Taiwanese
     ("East Asian", "Korean"): ids(481),
     ("East Asian", "Japanese"): ids(478),
-    ("East Asian", "Other East Asian"): ids(485, 466, 491),  # Mongolian, E/SE Asian n.o.s. & n.i.e.
+    ("East Asian", "Other East Asian"): ids(466, 485, 491),
 
     # ----------------------------------------------------------- SOUTHEAST ASIAN
-    ("Southeast Asian", "Filipino"): ids(472, 475, 476),  # + Igorot, Ilocano
+    ("Southeast Asian", "Filipino"): ids(472, 476, 475),  # + Ilocano, Igorot
     ("Southeast Asian", "Vietnamese"): ids(490),
-    ("Southeast Asian", "Other Mainland Southeast Asian"): ids(468, 469, 470, 473, 480, 482, 488),
-    ("Southeast Asian", "Maritime Southeast Asian"): ids(467, 477, 479, 483, 484, 486),
+    ("Southeast Asian", "Other Southeast Asian"): ids(
+        469, 477, 482, 484, 488, 483, 468, 486, 480, 467, 470, 473, 479,
+    ),
 
     # --------------------------------------------------------------- SOUTH ASIAN
-    ("South Asian", "Indian"): ids(451, 445),  # + Anglo-Indian
-    ("South Asian", "Punjabi and Sikh"): ids(458, 452, 527),  # + Jatt
-    ("South Asian", "Gujarati and Western Indian"): ids(450, 454, 449),  # + Maharashtrian, Goan
-    ("South Asian", "South Indian"): ids(455, 463),  # Malayali, Telugu
-    ("South Asian", "Pakistani"): ids(457, 459, 453),  # + Sindhi, Kashmiri
+    ("South Asian", "Indian"): ids(451, 450, 449, 455, 463, 445, 454),  # + Gujarati, Goan, Malayali, Telugu, Anglo-Indian, Maharashtrian
+    ("South Asian", "Pakistani"): ids(457, 453, 459),  # + Kashmiri, Sindhi
+    ("South Asian", "Punjabi and Sikh"): ids(458, 527, 452),  # + Jatt
     ("South Asian", "Sri Lankan and Tamil"): ids(461, 462, 460),
     ("South Asian", "Bangladeshi and Bengali"): ids(446, 447),
-    ("South Asian", "Himalayan"): ids(456, 448, 489),  # Nepali, Bhutanese, Tibetan
-    ("South Asian", "Other South Asian"): ids(444, 464, 521),  # + Hindu
+    ("South Asian", "Tibetan"): ids(489),
+    ("South Asian", "Nepali"): ids(456, 448),  # + Bhutanese
+    ("South Asian", "Other South Asian"): ids(521, 444, 464),  # Hindu, South Asian n.o.s. & n.i.e.
 
     # ------------------------------------------------------------------ OCEANIAN
     ("Oceanian", "Australian and New Zealander"): ids(505, 507, 508, 494),
     ("Oceanian", "Pacific Islander"): ids((496, 503), 506),  # + Maori; incl. Indo-Fijian
 
-    # -------------------------------------------------------------------- JEWISH
-    ("Jewish", "Jewish and Israeli"): ids(524, 422),
+    # ------------------------------------------------------- JEWISH AND ISRAELI
+    ("Jewish and Israeli", "Jewish and Israeli"): ids(524, 422),
 
     # --------------------------------------------------------------------- OTHER
     ("Other", "Other"): ids(
@@ -157,8 +154,34 @@ GROUPS = {
 # Leaf origins deliberately left off the map: purely religious responses.
 EXCLUDED = ids(516, 526, 513)  # Christian n.i.e., Muslim, Buddhist
 
+# Origins dropped from the grouping: no published responses in any Toronto DA.
+REMOVED = ids(
+    *[i for i in range(7, 124) if i not in (9, 20, 29, 37, 60, 63, 71, 79, 84, 93, 95, 108, 115) + _FN_KEEP],
+    134, 136, 141,  # Albertan, British Columbian, Gaspesian
+    181,  # Flemish
+    359,  # Kabyle
+    380,  # Malagasy
+    315, 333, 321,  # Bamileke, Guinean, Central African
+)
+
 BROAD_ORDER = [
     "Indigenous North American", "Non-Indigenous North American", "European",
     "Middle Eastern and North African", "African and Black Diaspora", "Caribbean",
-    "Latin American", "East Asian", "Southeast Asian", "South Asian", "Oceanian", "Jewish", "Other",
+    "Latin American", "East Asian", "Southeast Asian", "South Asian", "Oceanian",
+    "Jewish and Israeli", "Other",
 ]
+
+
+def _sort_groups():
+    """Within each broad category: subcategories by mapped responses, "Other ..." last."""
+    import json
+    from pathlib import Path
+    p = Path(__file__).resolve().parent.parent / "data/sub_totals.json"
+    if not p.exists():
+        return GROUPS
+    tot = json.loads(p.read_text())
+    key = lambda k: (BROAD_ORDER.index(k[0]), k[1].startswith("Other"), -tot.get(" / ".join(k), 0))
+    return dict(sorted(GROUPS.items(), key=lambda kv: key(kv[0])))
+
+
+GROUPS = _sort_groups()
