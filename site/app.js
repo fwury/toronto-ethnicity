@@ -112,6 +112,7 @@
     attributionControl: { compact: true, customAttribution: "Census data: Statistics Canada" },
     hash: true,
   });
+  window.teoMap = map; // handy for debugging from the console
   map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
   const padPanel = () => map.setPadding(window.innerWidth >= 720 ? { left: 372, top: 0, right: 0, bottom: 0 } : { left: 0, top: 0, right: 0, bottom: 0 });
   padPanel();
@@ -196,7 +197,11 @@
       state.basemap = b.id; store.set("basemap", b.id);
       bmWrap.querySelectorAll("button").forEach((x) => x.setAttribute("aria-checked", String(x === btn)));
       if (wasDark !== !!b.dark) rebuildColors();
-      map.setStyle(b.style);
+      // Drop the dots first: their beforeId points at a label layer of the old
+      // style; they are re-added under the new style's labels on style.load.
+      beforeId = undefined;
+      overlay.setProps({ layers: [] });
+      map.setStyle(b.style, { diff: false });
     };
     bmWrap.appendChild(btn);
   });
