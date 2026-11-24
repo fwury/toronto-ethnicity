@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Toronto Ethnic Origins</title>
+<meta name="description" content="Interactive dot map of 2021 Census ethnic or cultural origins in the Toronto CMA. One dot per five responses, placed on homes.">
+<link rel="stylesheet" href="vendor/maplibre-gl-5.24.1.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="map" aria-label="Map"></div>
+
+<button id="panel-toggle" class="panel-toggle" aria-expanded="true" aria-controls="panel">Layers</button>
+
+<aside id="panel" class="panel">
+  <header class="panel-head">
+    <h1>Toronto’s Ethnic Origins</h1>
+    <p class="sub">2021 Census · Toronto CMA · <strong>1 dot = 5 responses</strong></p>
+  </header>
+
+  <section class="controls">
+    <div class="field">
+      <span class="label">Basemap</span>
+      <div id="basemaps" class="basemaps" role="radiogroup" aria-label="Basemap"></div>
+    </div>
+    <div class="row">
+      <label class="check"><input type="checkbox" id="labels" checked> Map labels</label>
+      <div class="seg" role="radiogroup" aria-label="Colour by">
+        <button data-color="sub" class="on">Subgroups</button><button data-color="broad">Broad</button>
+      </div>
+    </div>
+    <div class="row sliders">
+      <label>Dot size <input type="range" id="size" min="1" max="14" step="0.5" value="4"></label>
+      <label>Opacity <input type="range" id="opacity" min="0.15" max="1" step="0.05" value="0.85"></label>
+    </div>
+  </section>
+
+  <section class="layers">
+    <div class="layers-head">
+      <input type="search" id="search" placeholder="Find an origin, e.g. Tamil" aria-label="Find an origin">
+      <button id="all" class="link">All</button>
+      <button id="none" class="link">None</button>
+    </div>
+    <div id="visible-count" class="visible-count"></div>
+    <ul id="tree" class="tree"></ul>
+  </section>
+
+  <details class="about">
+    <summary>About this map</summary>
+    <p>Each dot stands for five <em>responses</em> to the 2021 Census question on ethnic or cultural origin, not five people. People can report several origins, so someone reporting “Irish” and “Italian” appears in both groups, and the dots add up to more than the population.</p>
+    <p>Counts come from the Census Profile for each dissemination area (about 400–700 people). Within each area, dots are placed on residential buildings from Statistics Canada’s National Address Register, weighted by each block’s 2021 population and each building’s number of units. A dot’s exact position is illustrative; the count per area is not.</p>
+    <p><strong>Limits.</strong> Data are a 25% sample, randomly rounded to multiples of 5. Statistics Canada does not publish counts under 10 for a single area, so origins that are thinly spread across the region are under-represented. Only 247 of 488 origins are published at this level; the rest (about 1.2% of responses) are not on the map. Christian, Muslim and Buddhist responses are left out as purely religious. Some new buildings from after 2021 may receive dots.</p>
+    <p>Sources: Statistics Canada, 2021 Census of Population (98-401-X2021006, 98-10-0356-01), 2021 boundary and geographic attribute files, National Address Register (2026). Contains information licensed under the Open Government Licence – Canada.</p>
+    <div id="unmapped"></div>
+  </details>
+</aside>
+
+<div id="loading" class="loading">Loading 1.4 million dots…</div>
+
+<script src="vendor/maplibre-gl-5.24.1.js"></script>
+<script src="vendor/deck.gl-9.4.2.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
