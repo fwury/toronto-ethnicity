@@ -5,7 +5,7 @@ are placed on residential buildings in the DA, chosen with probability equal
 to each building's share of the DA's 2021 population. A building's share is
 its block's population split across the block's buildings by unit count.
 Blocks with people but no addresses get random points inside the block.
-Dots get a small random offset that grows with building size so towers read
+Dots get a small Gaussian offset that grows with building size so towers read
 as clusters instead of a single stacked point.
 
 Writes site/data/dots.bin.gz and site/data/meta.json.
@@ -97,10 +97,9 @@ def main():
             continue
         p = c.w.values / c.w.values.sum()
         pick = rng.choice(len(c), size=n.sum(), p=p)
-        ang = rng.uniform(0, 2 * np.pi, n.sum())
-        rad = c.r.values[pick] * np.sqrt(rng.random(n.sum()))
-        xs.append(c.x.values[pick] + rad * np.cos(ang))
-        ys.append(c.y.values[pick] + rad * np.sin(ang))
+        sigma = c.r.values[pick] / 2  # soft Gaussian spread around each building
+        xs.append(c.x.values[pick] + rng.normal(0, 1, n.sum()) * sigma)
+        ys.append(c.y.values[pick] + rng.normal(0, 1, n.sum()) * sigma)
         os_.append(np.repeat([code_to_idx[k] for k in grp.characteristic_id.values], n))
     x, y, o = np.concatenate(xs), np.concatenate(ys), np.concatenate(os_)
     print(f"{len(o):,} dots ({missing_da} DAs had no people to place)")
